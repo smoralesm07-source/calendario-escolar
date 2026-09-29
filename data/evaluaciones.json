@@ -1,5 +1,5 @@
 {
-  "actualizado_en": "29-09-2026 19:50",
+  "actualizado_en": "29-09-2026 19:58",
   "fuente": "Colegio Andrée English School",
   "cursos": [
     "3°D",
@@ -9,7 +9,9 @@
     {
       "fecha": "2026-03-16",
       "curso": "3°D",
-      "asignatura": "Actividad / evaluación",
+      "nivel": "3°",
+      "es_general": false,
+      "asignatura": "Actividad escolar",
       "descripcion": "Jornada de Orientación 3°C LENG: Evaluación DIA",
       "texto_original": "3°D: Jornada de Orientación 3°C LENG: Evaluación DIA",
       "tipo": "Calendario oficial",
@@ -19,6 +21,8 @@
     {
       "fecha": "2026-03-16",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Evaluación DIA",
       "texto_original": "6°B y C: LENGUAJE: Evaluación DIA",
@@ -29,6 +33,8 @@
     {
       "fecha": "2026-03-18",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Social Studies",
       "descripcion": "classwork \"Causes and stages of the Independence\" 6°D: LENGUAJE: Evaluación DIA",
       "texto_original": "6°B and D: SOCIAL STUDIES: classwork \"Causes and stages of the Independence\" 6°D: LENGUAJE: Evaluación DIA",
@@ -39,6 +45,8 @@
     {
       "fecha": "2026-03-25",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Arte Y Tecnología",
       "descripcion": "Lámina de diseño en CANVA",
       "texto_original": "6°B y D: ARTE y TECNOLOGÍA: Lámina de diseño en CANVA",
@@ -49,6 +57,8 @@
     {
       "fecha": "2026-03-26",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Leng",
       "descripcion": "Plan lector \"El secuestro de la bibliotecaria\"",
       "texto_original": "3° A y D LENG: Plan lector \"El secuestro de la bibliotecaria\"",
@@ -59,7 +69,9 @@
     {
       "fecha": "2026-03-31",
       "curso": "6°B",
-      "asignatura": "Actividad / evaluación",
+      "nivel": "6°",
+      "es_general": false,
+      "asignatura": "Actividad escolar",
       "descripcion": "8:00- 8:30: Reflexión Legado Miss Janine 8:30- 9:40: Reflexión de Semana Santa 6°A y B LENGUAJE: Plan lector 1 \"Asesinato en el Canadian Express\"",
       "texto_original": "8:00- 8:30: Reflexión Legado Miss Janine 8:30- 9:40: Reflexión de Semana Santa 6°A y B LENGUAJE: Plan lector 1 \"Asesinato en el Canadian Express\"",
       "tipo": "Calendario oficial",
@@ -67,8 +79,22 @@
       "origen": "6B|MARZO|R11C2"
     },
     {
+      "fecha": "2026-04-01",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "9:55- 10:55: Middle: Bendición del pan",
+      "texto_original": "9:55- 10:55: Middle: Bendición del pan",
+      "tipo": "Actividad general",
+      "hoja": "ABRIL",
+      "origen": "6B|ABRIL|R3C3"
+    },
+    {
       "fecha": "2026-04-06",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Leng",
       "descripcion": "Inicio trabajo de cierre de tema 1 (Collage de identidad)",
       "texto_original": "6° B, C y D LENG: Inicio trabajo de cierre de tema 1 (Collage de identidad)",
@@ -79,6 +105,8 @@
     {
       "fecha": "2026-04-07",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Social Studies",
       "descripcion": "classwork \"Organization and consolidation of the Republic) 6°D: MATEMÁTICA: Evaluación 6° A LENGUAJE: Inicio trabajo de cierre de tema 1 (Collage de identidad)",
       "texto_original": "6°B and D: SOCIAL STUDIES: classwork \"Organization and consolidation of the Republic) 6°D: MATEMÁTICA: Evaluación 6° A LENGUAJE: Inicio trabajo de cierre de tema 1 (Collage de identidad)",
@@ -89,7 +117,9 @@
     {
       "fecha": "2026-04-08",
       "curso": "3°D",
-      "asignatura": "Actividad / evaluación",
+      "nivel": "3°",
+      "es_general": false,
+      "asignatura": "Actividad escolar",
       "descripcion": "Evaluación ARTE Natural Disasters 3° A y C Social Studies: Rights and Duties Assessment",
       "texto_original": "3°D Evaluación ARTE Natural Disasters 3° A y C Social Studies: Rights and Duties Assessment",
       "tipo": "Calendario oficial",
@@ -99,6 +129,8 @@
     {
       "fecha": "2026-04-09",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Social Studies",
       "descripcion": "Rights and Duties Assessment 3° C Maths: Numbers Assessment (Stations)",
       "texto_original": "3° B y D Social Studies: Rights and Duties Assessment 3° C Maths: Numbers Assessment (Stations)",
@@ -109,6 +141,8 @@
     {
       "fecha": "2026-04-09",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Matemática",
       "descripcion": "Evaluación escrita",
       "texto_original": "6°A, B y C: MATEMÁTICA: Evaluación escrita",
@@ -119,6 +153,8 @@
     {
       "fecha": "2026-04-10",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Maths",
       "descripcion": "Numbers Assessment (Stations)",
       "texto_original": "3° A, B y D Maths: Numbers Assessment (Stations)",
@@ -129,6 +165,8 @@
     {
       "fecha": "2026-04-13",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Leng",
       "descripcion": "Inicio de evaluación tema transdisciplinar 1",
       "texto_original": "3°A, B, C Y D LENG: Inicio de evaluación tema transdisciplinar 1",
@@ -139,6 +177,8 @@
     {
       "fecha": "2026-04-13",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Storytelling (Food traditions) (Entrega)",
       "texto_original": "6°A, B, C, D ENGLISH: Storytelling (Food traditions) (Entrega)",
@@ -149,6 +189,8 @@
     {
       "fecha": "2026-04-14",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Storytelling (Food traditions)",
       "texto_original": "6°A, B, C, D ENGLISH: Storytelling (Food traditions)",
@@ -159,6 +201,8 @@
     {
       "fecha": "2026-04-15",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Storytelling (Food traditions)",
       "texto_original": "6°A, B, C, D ENGLISH: Storytelling (Food traditions)",
@@ -169,6 +213,8 @@
     {
       "fecha": "2026-04-16",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Careers fair",
       "texto_original": "3° A, B, C, D ENGLISH: Careers fair",
@@ -179,6 +225,8 @@
     {
       "fecha": "2026-04-16",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Science",
       "descripcion": "Test",
       "texto_original": "6ºB: SCIENCE: Test",
@@ -189,6 +237,8 @@
     {
       "fecha": "2026-04-21",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Natural Science",
       "descripcion": "Weekly School Menú Presentation",
       "texto_original": "3° B y D: Natural Science: Weekly School Menú Presentation",
@@ -199,6 +249,8 @@
     {
       "fecha": "2026-04-23",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Tecno",
       "descripcion": "Computación 3°A LENG: Evaluación Plan lector 2 \"La calle más aburrida del mundo\"",
       "texto_original": "3C y 3D TECNO: Computación 3°A LENG: Evaluación Plan lector 2 \"La calle más aburrida del mundo\"",
@@ -209,7 +261,9 @@
     {
       "fecha": "2026-04-23",
       "curso": "6°B",
-      "asignatura": "Actividad / evaluación",
+      "nivel": "6°",
+      "es_general": false,
+      "asignatura": "Actividad escolar",
       "descripcion": "Percy Jackson (Interview to a god)",
       "texto_original": "6°A, B, C, D: Percy Jackson (Interview to a god)",
       "tipo": "Calendario oficial",
@@ -219,7 +273,9 @@
     {
       "fecha": "2026-04-24",
       "curso": "6°B",
-      "asignatura": "Actividad / evaluación",
+      "nivel": "6°",
+      "es_general": false,
+      "asignatura": "Actividad escolar",
       "descripcion": "Percy Jackson (Interview to a god",
       "texto_original": "6°A, B, C, D: Percy Jackson (Interview to a god",
       "tipo": "Calendario oficial",
@@ -227,8 +283,58 @@
       "origen": "6B|ABRIL|R9C5"
     },
     {
+      "fecha": "2026-04-29",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "8:00- 9:00: Reflexión \"Sana convivencia\"",
+      "texto_original": "8:00- 9:00: Reflexión \"Sana convivencia\"",
+      "tipo": "Actividad general",
+      "hoja": "ABRIL",
+      "origen": "3D|ABRIL|R11C3"
+    },
+    {
+      "fecha": "2026-04-29",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "8:00- 9:00: Reflexión \"Sana convivencia\"",
+      "texto_original": "8:00- 9:00: Reflexión \"Sana convivencia\"",
+      "tipo": "Actividad general",
+      "hoja": "ABRIL",
+      "origen": "6B|ABRIL|R11C3"
+    },
+    {
+      "fecha": "2026-05-01",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "FERIADO",
+      "texto_original": "FERIADO",
+      "tipo": "Actividad general",
+      "hoja": "MAYO",
+      "origen": "3D|MAYO|R3C5"
+    },
+    {
+      "fecha": "2026-05-01",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "FERIADO",
+      "texto_original": "FERIADO",
+      "tipo": "Actividad general",
+      "hoja": "MAYO",
+      "origen": "6B|MAYO|R3C5"
+    },
+    {
       "fecha": "2026-05-04",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Inicio trabajo Plan lector 2 \"Harry Potter y la cámara secreta o el prisionero de Azkabán\"",
       "texto_original": "6°B, C y D: LENGUAJE: Inicio trabajo Plan lector 2 \"Harry Potter y la cámara secreta o el prisionero de Azkabán\"",
@@ -239,6 +345,8 @@
     {
       "fecha": "2026-05-05",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Arte Y Tecnologia",
       "descripcion": "Evaluación arte de escultura 6ºA and C: SCIENCE: Guía acumulativa Nº1 6° B y D: SOCIAL STUDIES; start classwork \" Territorial changes and Social Cuestion\"",
       "texto_original": "6°C: ARTE y Tecnologia: Evaluación arte de escultura 6ºA and C: SCIENCE: Guía acumulativa Nº1 6° B y D: SOCIAL STUDIES; start classwork \" Territorial changes and Social Cuestion\"",
@@ -249,6 +357,8 @@
     {
       "fecha": "2026-05-06",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Social Studies",
       "descripcion": "finish classwork \" Territorial changes and Social Cuestion\" 6°A SOCIAL STUDIES: start classwork \" Territorial changes and Social Cuestion\" 6°D: ARTE y Tecnologia: Evaluación escultura",
       "texto_original": "6°B and 6°D: SOCIAL STUDIES: finish classwork \" Territorial changes and Social Cuestion\" 6°A SOCIAL STUDIES: start classwork \" Territorial changes and Social Cuestion\" 6°D: ARTE y Tecnologia: Evaluación escultura",
@@ -259,6 +369,8 @@
     {
       "fecha": "2026-05-07",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Science",
       "descripcion": "Guía acumulativa Nº1 6°C SOCIAL STUDIES: start classwork \" Territorial chanfes and Social Cuestion\"",
       "texto_original": "6ºB and D: SCIENCE: Guía acumulativa Nº1 6°C SOCIAL STUDIES: start classwork \" Territorial chanfes and Social Cuestion\"",
@@ -269,6 +381,8 @@
     {
       "fecha": "2026-05-08",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Math Assessment",
       "descripcion": "Patterns, Addition and Subtractions.",
       "texto_original": "3° A, B, C and D Math Assessment: Patterns, Addition and Subtractions.",
@@ -277,8 +391,58 @@
       "origen": "3D|MAYO|R5C5"
     },
     {
+      "fecha": "2026-05-11",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "ALIANZA DE COLORES",
+      "texto_original": "ALIANZA DE COLORES",
+      "tipo": "Actividad general",
+      "hoja": "MAYO",
+      "origen": "3D|MAYO|R7C1"
+    },
+    {
+      "fecha": "2026-05-11",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "ALIANZA DE COLORES",
+      "texto_original": "ALIANZA DE COLORES",
+      "tipo": "Actividad general",
+      "hoja": "MAYO",
+      "origen": "6B|MAYO|R7C1"
+    },
+    {
+      "fecha": "2026-05-18",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "DESCANSO OTOÑAL",
+      "texto_original": "DESCANSO OTOÑAL",
+      "tipo": "Actividad general",
+      "hoja": "MAYO",
+      "origen": "3D|MAYO|R9C1"
+    },
+    {
+      "fecha": "2026-05-18",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "DESCANSO OTOÑAL",
+      "texto_original": "DESCANSO OTOÑAL",
+      "tipo": "Actividad general",
+      "hoja": "MAYO",
+      "origen": "6B|MAYO|R9C1"
+    },
+    {
       "fecha": "2026-05-25",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Inventor's pitch",
       "texto_original": "6°A, B, C, D ENGLISH: Inventor's pitch",
@@ -289,6 +453,8 @@
     {
       "fecha": "2026-05-26",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Leng",
       "descripcion": "Evaluación Plan lector 3 \"Roald Dahl\" 3°A 3°B Y 3°D ARTE Grece sgrafitto 3°B y D Natural Science: Sounds Lab",
       "texto_original": "3°C LENG: Evaluación Plan lector 3 \"Roald Dahl\" 3°A 3°B Y 3°D ARTE Grece sgrafitto 3°B y D Natural Science: Sounds Lab",
@@ -299,6 +465,8 @@
     {
       "fecha": "2026-05-26",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Evaluación acumulativa de cierre (tema 2).",
       "texto_original": "6°B: LENGUAJE: Evaluación acumulativa de cierre (tema 2).",
@@ -309,6 +477,8 @@
     {
       "fecha": "2026-05-28",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Leng",
       "descripcion": "Evaluación Plan lector 3 \"Roald Dahl\" 3°C Natural Science: Sounds Lab",
       "texto_original": "3°A y D LENG: Evaluación Plan lector 3 \"Roald Dahl\" 3°C Natural Science: Sounds Lab",
@@ -319,6 +489,8 @@
     {
       "fecha": "2026-05-28",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Science",
       "descripcion": "Guía acumulativa Nº2 6°A: LENGUAJE: Evaluación acumulativa de cierre (tema 2).",
       "texto_original": "6ºB: SCIENCE: Guía acumulativa Nº2 6°A: LENGUAJE: Evaluación acumulativa de cierre (tema 2).",
@@ -329,6 +501,8 @@
     {
       "fecha": "2026-06-01",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Leng",
       "descripcion": "Inicio de evaluación de cierre de tema 2",
       "texto_original": "3°A, B, C y D LENG: Inicio de evaluación de cierre de tema 2",
@@ -339,6 +513,8 @@
     {
       "fecha": "2026-06-01",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Matemática",
       "descripcion": "Prueba escrita de multiplicación y división de decimales y problemas",
       "texto_original": "6° A, B, C y D: MATEMÁTICA: Prueba escrita de multiplicación y división de decimales y problemas",
@@ -349,6 +525,8 @@
     {
       "fecha": "2026-06-04",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Social Studies/English",
       "descripcion": "Magazine submission 3ºc y 3ºD Tecnología: Secret Code",
       "texto_original": "3° A, B, C y D Social Studies/English: Magazine submission 3ºc y 3ºD Tecnología: Secret Code",
@@ -359,7 +537,9 @@
     {
       "fecha": "2026-06-05",
       "curso": "6°B",
-      "asignatura": "Actividad / evaluación",
+      "nivel": "6°",
+      "es_general": false,
+      "asignatura": "Actividad escolar",
       "descripcion": "ENGLISH Percy Jackson Quiz 1",
       "texto_original": "6°A, B, C, D: ENGLISH Percy Jackson Quiz 1",
       "tipo": "Calendario oficial",
@@ -369,6 +549,8 @@
     {
       "fecha": "2026-06-11",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Matemática",
       "descripcion": "Exposición y análisis de gráficos",
       "texto_original": "6° B: MATEMÁTICA: Exposición y análisis de gráficos",
@@ -379,6 +561,8 @@
     {
       "fecha": "2026-06-17",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Listening and grammar Quiz",
       "texto_original": "6° A, B, C, D ENGLISH: Listening and grammar Quiz",
@@ -389,6 +573,8 @@
     {
       "fecha": "2026-06-18",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Leng",
       "descripcion": "Prueba de Unidad",
       "texto_original": "3°A y D LENG: Prueba de Unidad",
@@ -397,8 +583,22 @@
       "origen": "3D|JUNIO|R7C4"
     },
     {
+      "fecha": "2026-06-18",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "11:30: SCIENCE: Comprehensive test",
+      "texto_original": "11:30: SCIENCE: Comprehensive test",
+      "tipo": "Actividad general",
+      "hoja": "JUNIO",
+      "origen": "6B|JUNIO|R7C4"
+    },
+    {
       "fecha": "2026-06-22",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Leng",
       "descripcion": "Evaluación Plan Lector 4 \"La cabaña en el árbol\"",
       "texto_original": "3°A, C y D LENG: Evaluación Plan Lector 4 \"La cabaña en el árbol\"",
@@ -409,7 +609,9 @@
     {
       "fecha": "2026-06-22",
       "curso": "6°B",
-      "asignatura": "Actividad / evaluación",
+      "nivel": "6°",
+      "es_general": false,
+      "asignatura": "Actividad escolar",
       "descripcion": "9:55: SOCIAL: Comprehensive test 6°A y B: TECNOLOGÍA: Makey Makey",
       "texto_original": "9:55: SOCIAL: Comprehensive test 6°A y B: TECNOLOGÍA: Makey Makey",
       "tipo": "Calendario oficial",
@@ -419,6 +621,8 @@
     {
       "fecha": "2026-06-23",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Prueba de Comprensión de Lectura (PCL 1)",
       "texto_original": "6°A y B: LENGUAJE: Prueba de Comprensión de Lectura (PCL 1)",
@@ -429,6 +633,8 @@
     {
       "fecha": "2026-06-24",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Unit 4 Quiz 1",
       "texto_original": "3°A-B-C-D English: Unit 4 Quiz 1",
@@ -439,6 +645,8 @@
     {
       "fecha": "2026-06-26",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Math",
       "descripcion": "Multiplication Concept Presentation",
       "texto_original": "3°A, B, C and D Math: Multiplication Concept Presentation",
@@ -447,8 +655,46 @@
       "origen": "3D|JUNIO|R9C5"
     },
     {
+      "fecha": "2026-06-26",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "Cierre académico 1° semestre",
+      "texto_original": "Cierre académico 1° semestre",
+      "tipo": "Actividad general",
+      "hoja": "JUNIO",
+      "origen": "6B|JUNIO|R9C5"
+    },
+    {
+      "fecha": "2026-06-29",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Feriado",
+      "descripcion": "SAN PEDRO Y SAN PABLO",
+      "texto_original": "FERIADO: SAN PEDRO Y SAN PABLO",
+      "tipo": "Actividad general",
+      "hoja": "JUNIO",
+      "origen": "3D|JUNIO|R11C1"
+    },
+    {
+      "fecha": "2026-06-29",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Feriado",
+      "descripcion": "SAN PEDRO Y SAN PABLO",
+      "texto_original": "FERIADO: SAN PEDRO Y SAN PABLO",
+      "tipo": "Actividad general",
+      "hoja": "JUNIO",
+      "origen": "6B|JUNIO|R11C1"
+    },
+    {
       "fecha": "2026-07-02",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Percy Jackson Quiz 2",
       "texto_original": "6° B: ENGLISH: Percy Jackson Quiz 2",
@@ -457,8 +703,70 @@
       "origen": "6B|JULIO|R3C4"
     },
     {
+      "fecha": "2026-07-02",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "2°- 4°: 8:20- 9:20: Acción de Gracias",
+      "texto_original": "2°- 4°: 8:20- 9:20: Acción de Gracias",
+      "tipo": "Actividad general",
+      "hoja": "JULIO",
+      "origen": "3D|JULIO|R3C4"
+    },
+    {
+      "fecha": "2026-07-06",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "VACACIONES DE INVIERNO",
+      "texto_original": "VACACIONES DE INVIERNO",
+      "tipo": "Actividad general",
+      "hoja": "JULIO",
+      "origen": "3D|JULIO|R5C1"
+    },
+    {
+      "fecha": "2026-07-06",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "VACACIONES DE INVIERNO",
+      "texto_original": "VACACIONES DE INVIERNO",
+      "tipo": "Actividad general",
+      "hoja": "JULIO",
+      "origen": "6B|JULIO|R5C1"
+    },
+    {
+      "fecha": "2026-07-13",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "VACACIONES DE INVIERNO",
+      "texto_original": "VACACIONES DE INVIERNO",
+      "tipo": "Actividad general",
+      "hoja": "JULIO",
+      "origen": "3D|JULIO|R7C1"
+    },
+    {
+      "fecha": "2026-07-13",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "VACACIONES DE INVIERNO",
+      "texto_original": "VACACIONES DE INVIERNO",
+      "tipo": "Actividad general",
+      "hoja": "JULIO",
+      "origen": "6B|JULIO|R7C1"
+    },
+    {
       "fecha": "2026-07-22",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Arte",
       "descripcion": "Pintura abstracta Judy Chicago 6ºB y 6ºC Tecnología: Makey Makey",
       "texto_original": "6°D: ARTE: Pintura abstracta Judy Chicago 6ºB y 6ºC Tecnología: Makey Makey",
@@ -469,6 +777,8 @@
     {
       "fecha": "2026-07-23",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Leng",
       "descripcion": "DIA intermedio (no requiere estudio)",
       "texto_original": "3° A y D LENG: DIA intermedio (no requiere estudio)",
@@ -479,6 +789,8 @@
     {
       "fecha": "2026-07-23",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "DIA intermedio (ev. formativa. No requiere estudio) 6ºA y 6ºDTecnología: Makey Makey",
       "texto_original": "6°A y B: LENGUAJE: DIA intermedio (ev. formativa. No requiere estudio) 6ºA y 6ºDTecnología: Makey Makey",
@@ -489,6 +801,8 @@
     {
       "fecha": "2026-07-24",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Arte",
       "descripcion": "Pintura abstracta Judy Chicago 6°C Y D: LENGUAJE: DIA intermedio (ev. formativa. No requiere estudio)",
       "texto_original": "6° A y B: ARTE: Pintura abstracta Judy Chicago 6°C Y D: LENGUAJE: DIA intermedio (ev. formativa. No requiere estudio)",
@@ -499,6 +813,8 @@
     {
       "fecha": "2026-07-27",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Leng",
       "descripcion": "Inicio de evaluación de cierre de tema 3.",
       "texto_original": "3°A, B, C y D LENG: Inicio de evaluación de cierre de tema 3.",
@@ -509,7 +825,9 @@
     {
       "fecha": "2026-07-27",
       "curso": "6°B",
-      "asignatura": "Actividad / evaluación",
+      "nivel": "6°",
+      "es_general": false,
+      "asignatura": "Actividad escolar",
       "descripcion": "8:30- 14:30: Jornada de liderazgo (asiste solo la Directiva) 6°B, C y D: LENGUAJE: Inicio evaluación cierre de tema 3",
       "texto_original": "8:30- 14:30: Jornada de liderazgo (asiste solo la Directiva) 6°B, C y D: LENGUAJE: Inicio evaluación cierre de tema 3",
       "tipo": "Calendario oficial",
@@ -519,6 +837,8 @@
     {
       "fecha": "2026-07-28",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Tural Science",
       "descripcion": "Solar System Elements and Earth's Movements 3°C English: Unit 4 Quiz 2",
       "texto_original": "3° B y D Natural Science: Solar System Elements and Earth's Movements 3°C English: Unit 4 Quiz 2",
@@ -529,6 +849,8 @@
     {
       "fecha": "2026-07-28",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Inicio evaluación cierre de tema 3 6° B, C, D ENGLISH: Fashion show",
       "texto_original": "6°A: LENGUAJE: Inicio evaluación cierre de tema 3 6° B, C, D ENGLISH: Fashion show",
@@ -539,6 +861,8 @@
     {
       "fecha": "2026-07-29",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Fashion show",
       "texto_original": "6°A, B, C, D ENGLISH: Fashion show",
@@ -549,6 +873,8 @@
     {
       "fecha": "2026-07-30",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Tecnología",
       "descripcion": "Memory card.",
       "texto_original": "3ºC y 3ºD Tecnología: Memory card.",
@@ -559,6 +885,8 @@
     {
       "fecha": "2026-07-30",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Fashion show 6ºB: SCIENCE: Project",
       "texto_original": "6°A ENGLISH: Fashion show 6ºB: SCIENCE: Project",
@@ -569,6 +897,8 @@
     {
       "fecha": "2026-08-03",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Math",
       "descripcion": "Evaluación DIA",
       "texto_original": "6° A, B y C Math: Evaluación DIA",
@@ -579,6 +909,8 @@
     {
       "fecha": "2026-08-05",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Math",
       "descripcion": "Word Problems Written Assessment Part 1",
       "texto_original": "3° A, C and D Math: Word Problems Written Assessment Part 1",
@@ -589,6 +921,8 @@
     {
       "fecha": "2026-08-05",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Social Studies",
       "descripcion": "Evaluation",
       "texto_original": "6° B y D: SOCIAL STUDIES: Evaluation",
@@ -599,6 +933,8 @@
     {
       "fecha": "2026-08-06",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Leng",
       "descripcion": "Evaluación Plan Lector 5 \"Superanimales de Chile\" 3° B Math: Word Problems Written Assessment Part 1",
       "texto_original": "3° A y D LENG: Evaluación Plan Lector 5 \"Superanimales de Chile\" 3° B Math: Word Problems Written Assessment Part 1",
@@ -609,6 +945,8 @@
     {
       "fecha": "2026-08-06",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Math",
       "descripcion": "Prueba escrita Álgebra 6°D Math: Evaluación DIA",
       "texto_original": "6° A, B y C Math: Prueba escrita Álgebra 6°D Math: Evaluación DIA",
@@ -619,6 +957,8 @@
     {
       "fecha": "2026-08-10",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Prueba Plan Lector 4 \"Socorro\"",
       "texto_original": "6°B, C y D: LENGUAJE: Prueba Plan Lector 4 \"Socorro\"",
@@ -629,7 +969,9 @@
     {
       "fecha": "2026-08-11",
       "curso": "3°D",
-      "asignatura": "Actividad / evaluación",
+      "nivel": "3°",
+      "es_general": false,
+      "asignatura": "Actividad escolar",
       "descripcion": "ART Greek Vase",
       "texto_original": "3°A, 3°B, 3°D. ART Greek Vase",
       "tipo": "Calendario oficial",
@@ -637,8 +979,46 @@
       "origen": "3D|AGOSTO|R5C2"
     },
     {
+      "fecha": "2026-08-13",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "MATH DAY (8:20 - 11:15)",
+      "texto_original": "MATH DAY (8:20 - 11:15)",
+      "tipo": "Actividad general",
+      "hoja": "AGOSTO",
+      "origen": "3D|AGOSTO|R5C4"
+    },
+    {
+      "fecha": "2026-08-13",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "MATH DAY (8:20 - 11:15)",
+      "texto_original": "MATH DAY (8:20 - 11:15)",
+      "tipo": "Actividad general",
+      "hoja": "AGOSTO",
+      "origen": "6B|AGOSTO|R5C4"
+    },
+    {
+      "fecha": "2026-08-14",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "Taller líderes de inclusión (asisten 5 estudiantes por curso)",
+      "texto_original": "Taller líderes de inclusión (asisten 5 estudiantes por curso)",
+      "tipo": "Actividad general",
+      "hoja": "AGOSTO",
+      "origen": "6B|AGOSTO|R5C5"
+    },
+    {
       "fecha": "2026-08-20",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Social Studies",
       "descripcion": "Geography Written Assessment",
       "texto_original": "3°B y D Social Studies: Geography Written Assessment",
@@ -649,6 +1029,8 @@
     {
       "fecha": "2026-08-26",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Science",
       "descripcion": "Diorama 6°A - C ENGLISH: Theater week play presentation",
       "texto_original": "6ºB: SCIENCE: Diorama 6°A - C ENGLISH: Theater week play presentation",
@@ -659,7 +1041,9 @@
     {
       "fecha": "2026-08-27",
       "curso": "3°D",
-      "asignatura": "Actividad / evaluación",
+      "nivel": "3°",
+      "es_general": false,
+      "asignatura": "Actividad escolar",
       "descripcion": "ENGLISH 3°B - D: Written test",
       "texto_original": "ENGLISH 3°B - D: Written test",
       "tipo": "Calendario oficial",
@@ -669,6 +1053,8 @@
     {
       "fecha": "2026-08-27",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Science",
       "descripcion": "Diorama 6°B ENGLISH: Theater week play presentation",
       "texto_original": "6ºD: SCIENCE: Diorama 6°B ENGLISH: Theater week play presentation",
@@ -679,6 +1065,8 @@
     {
       "fecha": "2026-09-01",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Social",
       "descripcion": "Test Regions of Chile",
       "texto_original": "6° B: SOCIAL: Test Regions of Chile",
@@ -689,6 +1077,8 @@
     {
       "fecha": "2026-09-03",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Leng",
       "descripcion": "Evaluación Plan Lector 6 \"Isabel Ossa\" 3°B: Division Quiz 3ºC Art: Mosaic",
       "texto_original": "3°A y D LENG: Evaluación Plan Lector 6 \"Isabel Ossa\" 3°B: Division Quiz 3ºC Art: Mosaic",
@@ -699,6 +1089,8 @@
     {
       "fecha": "2026-09-03",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Evaluación cierre de tema 4 (acumulativa) 6° C: SOCIAL: Test Regions of Chile",
       "texto_original": "6°A y B: LENGUAJE: Evaluación cierre de tema 4 (acumulativa) 6° C: SOCIAL: Test Regions of Chile",
@@ -709,6 +1101,8 @@
     {
       "fecha": "2026-09-07",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Leng",
       "descripcion": "Inicio de evaluación de cierre de tema 4.",
       "texto_original": "3°A, B, C y D LENG: Inicio de evaluación de cierre de tema 4.",
@@ -719,6 +1113,8 @@
     {
       "fecha": "2026-09-07",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Evaluación Plan Lector 5 \"Mocha Dick\"",
       "texto_original": "6°B, C y D: LENGUAJE: Evaluación Plan Lector 5 \"Mocha Dick\"",
@@ -729,6 +1125,8 @@
     {
       "fecha": "2026-09-08",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Social Studies/Natural Science",
       "descripcion": "Plants/Climate Zones Project Presentation 3ºA 3ªB 3ªD Art: Mosaic ENGLISH 3°D: Reader classwork delivery",
       "texto_original": "3° B Social Studies/Natural Science: Plants/Climate Zones Project Presentation 3ºA 3ªB 3ªD Art: Mosaic ENGLISH 3°D: Reader classwork delivery",
@@ -739,7 +1137,9 @@
     {
       "fecha": "2026-09-10",
       "curso": "3°D",
-      "asignatura": "Actividad / evaluación",
+      "nivel": "3°",
+      "es_general": false,
+      "asignatura": "Actividad escolar",
       "descripcion": "ENGLISH 3°A - B - C : Reader classwork delivery 3ºC y D Tecnología: Juego Chileno 3°D Social Studies/Natural Science: Plants/Climate Zones Project Presentation",
       "texto_original": "ENGLISH 3°A - B - C : Reader classwork delivery 3ºC y D Tecnología: Juego Chileno 3°D Social Studies/Natural Science: Plants/Climate Zones Project Presentation",
       "tipo": "Calendario oficial",
@@ -747,8 +1147,58 @@
       "origen": "3D|SEPTIEMBRE|R5C4"
     },
     {
+      "fecha": "2026-09-11",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "Fiesta folclórica",
+      "texto_original": "Fiesta folclórica",
+      "tipo": "Actividad general",
+      "hoja": "SEPTIEMBRE",
+      "origen": "6B|SEPTIEMBRE|R5C5"
+    },
+    {
+      "fecha": "2026-09-14",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "VACACIONES FIESTAS PATRIAS",
+      "texto_original": "VACACIONES FIESTAS PATRIAS",
+      "tipo": "Actividad general",
+      "hoja": "SEPTIEMBRE",
+      "origen": "6B|SEPTIEMBRE|R7C1"
+    },
+    {
+      "fecha": "2026-09-24",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "09:00 a 09:40 hrs: Teletón Day",
+      "texto_original": "09:00 a 09:40 hrs: Teletón Day",
+      "tipo": "Actividad general",
+      "hoja": "SEPTIEMBRE",
+      "origen": "3D|SEPTIEMBRE|R9C4"
+    },
+    {
+      "fecha": "2026-09-24",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "10:00- 11:00: Actividades Teletón Day",
+      "texto_original": "10:00- 11:00: Actividades Teletón Day",
+      "tipo": "Actividad general",
+      "hoja": "SEPTIEMBRE",
+      "origen": "6B|SEPTIEMBRE|R9C4"
+    },
+    {
       "fecha": "2026-09-25",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Arte",
       "descripcion": "Mural (croquera + boceto)",
       "texto_original": "6°A y B: ARTE: Mural (croquera + boceto)",
@@ -759,6 +1209,8 @@
     {
       "fecha": "2026-10-01",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Matemática",
       "descripcion": "Prueba de sumas de fracciones y numeros mixtos.",
       "texto_original": "6° A, B, C y D: MATEMÁTICA: Prueba de sumas de fracciones y numeros mixtos.",
@@ -769,6 +1221,8 @@
     {
       "fecha": "2026-10-06",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Prueba de Comprensión de Lectura 2",
       "texto_original": "6°A y B: LENGUAJE: Prueba de Comprensión de Lectura 2",
@@ -779,6 +1233,8 @@
     {
       "fecha": "2026-10-07",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Math",
       "descripcion": "Multiplication and Division Written Quiz",
       "texto_original": "3°A and D Math: Multiplication and Division Written Quiz",
@@ -787,8 +1243,46 @@
       "origen": "3D|OCTUBRE|R5C3"
     },
     {
+      "fecha": "2026-10-09",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "DÍA DEL PROFESOR (SUSPENSIÓN DE ACTIVIDADES",
+      "texto_original": "DÍA DEL PROFESOR (SUSPENSIÓN DE ACTIVIDADES",
+      "tipo": "Actividad general",
+      "hoja": "OCTUBRE",
+      "origen": "6B|OCTUBRE|R5C5"
+    },
+    {
+      "fecha": "2026-10-12",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Feriado",
+      "descripcion": "ENCUENTRO DE DOS MUNDOS",
+      "texto_original": "FERIADO: ENCUENTRO DE DOS MUNDOS",
+      "tipo": "Actividad general",
+      "hoja": "OCTUBRE",
+      "origen": "3D|OCTUBRE|R7C1"
+    },
+    {
+      "fecha": "2026-10-12",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Feriado",
+      "descripcion": "ENCUENTRO DE DOS MUNDOS",
+      "texto_original": "FERIADO: ENCUENTRO DE DOS MUNDOS",
+      "tipo": "Actividad general",
+      "hoja": "OCTUBRE",
+      "origen": "6B|OCTUBRE|R7C1"
+    },
+    {
       "fecha": "2026-10-15",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Plan Lector 6: ¿Seguiremos siendo amigos?",
       "texto_original": "3°A y D: LENGUAJE: Plan Lector 6: ¿Seguiremos siendo amigos?",
@@ -799,6 +1293,8 @@
     {
       "fecha": "2026-10-16",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Reader Quiz chapters 1 to 12",
       "texto_original": "6°A, B, C and D: ENGLISH: Reader Quiz chapters 1 to 12",
@@ -809,6 +1305,8 @@
     {
       "fecha": "2026-10-19",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Inicio de producto (Communication Fest)",
       "texto_original": "3°A, B, C y D: LENGUAJE: Inicio de producto (Communication Fest)",
@@ -819,6 +1317,8 @@
     {
       "fecha": "2026-10-19",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Inicio de producto (Communication Fest)",
       "texto_original": "6°B, C y D: LENGUAJE: Inicio de producto (Communication Fest)",
@@ -827,8 +1327,22 @@
       "origen": "6B|OCTUBRE|R9C1"
     },
     {
+      "fecha": "2026-10-20",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "8:30- 16:00: Jornada de reorganización",
+      "texto_original": "8:30- 16:00: Jornada de reorganización",
+      "tipo": "Actividad general",
+      "hoja": "OCTUBRE",
+      "origen": "6B|OCTUBRE|R9C2"
+    },
+    {
       "fecha": "2026-10-21",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Tecnología",
       "descripcion": "Juego de mesa 6°A: LENGUAJE: Inicio de producto (Communication Fest)",
       "texto_original": "6ºB y D TECNOLOGÍA : Juego de mesa 6°A: LENGUAJE: Inicio de producto (Communication Fest)",
@@ -839,6 +1353,8 @@
     {
       "fecha": "2026-10-22",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Market presentation (Comunication Fest)",
       "texto_original": "3°C - D English: Market presentation (Comunication Fest)",
@@ -849,17 +1365,33 @@
     {
       "fecha": "2026-10-26",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "English",
-      "descripcion": "Scrap book delivery (Communication Fest)",
-      "texto_original": "6°A - B - C - D English: Scrap book delivery (Communication Fest)",
+      "descripcion": "Scrap book delivery (Communication Fest) (class work)",
+      "texto_original": "6°A - B - C - D English: Scrap book delivery (Communication Fest) (class work)",
       "tipo": "Calendario oficial",
       "hoja": "OCTUBRE",
       "origen": "6B|OCTUBRE|R11C1"
     },
     {
+      "fecha": "2026-10-27",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "8:20: SCIENCE: Comprehensive test",
+      "texto_original": "8:20: SCIENCE: Comprehensive test",
+      "tipo": "Actividad general",
+      "hoja": "OCTUBRE",
+      "origen": "6B|OCTUBRE|R11C2"
+    },
+    {
       "fecha": "2026-10-28",
       "curso": "6°B",
-      "asignatura": "Actividad / evaluación",
+      "nivel": "6°",
+      "es_general": false,
+      "asignatura": "Actividad escolar",
       "descripcion": "SIMCE 13:55- 15:00: 6°B: Presentación juego de mesa 15:30- 16:30: 6°D: Presentación juego de mesa",
       "texto_original": "SIMCE 13:55- 15:00: 6°B: Presentación juego de mesa 15:30- 16:30: 6°D: Presentación juego de mesa",
       "tipo": "Calendario oficial",
@@ -869,6 +1401,8 @@
     {
       "fecha": "2026-10-30",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Unit 8 Quiz",
       "texto_original": "6°A - B - C - D English: Unit 8 Quiz",
@@ -879,6 +1413,8 @@
     {
       "fecha": "2026-11-03",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Evaluación DIA de cierre (no requiere estudio)",
       "texto_original": "6° A y B: LENGUAJE: Evaluación DIA de cierre (no requiere estudio)",
@@ -887,8 +1423,22 @@
       "origen": "6B|NOVIEMBRE|R3C2"
     },
     {
+      "fecha": "2026-11-04",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "9:55: SOCIAL: Comprehensive test",
+      "texto_original": "9:55: SOCIAL: Comprehensive test",
+      "tipo": "Actividad general",
+      "hoja": "NOVIEMBRE",
+      "origen": "6B|NOVIEMBRE|R3C3"
+    },
+    {
       "fecha": "2026-11-05",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Evaluación DIA de cierre (no requiere estudio)",
       "texto_original": "3°A y D: LENGUAJE: Evaluación DIA de cierre (no requiere estudio)",
@@ -899,6 +1449,8 @@
     {
       "fecha": "2026-11-09",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Inicio de exposiciones (novela a elección)",
       "texto_original": "3°A, B, C y D: LENGUAJE: Inicio de exposiciones (novela a elección)",
@@ -909,6 +1461,8 @@
     {
       "fecha": "2026-11-09",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Matemáticas",
       "descripcion": "Entrega trabajo geometría",
       "texto_original": "6°A, B y C MATEMÁTICAS: Entrega trabajo geometría",
@@ -919,6 +1473,8 @@
     {
       "fecha": "2026-11-12",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Reader classwork assessment",
       "texto_original": "6°A, B, C and D: ENGLISH: Reader classwork assessment",
@@ -929,6 +1485,8 @@
     {
       "fecha": "2026-11-13",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "English",
       "descripcion": "Reader classwork assessment",
       "texto_original": "6°A, B, C and D: ENGLISH: Reader classwork assessment",
@@ -939,6 +1497,8 @@
     {
       "fecha": "2026-11-16",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Inicio de exposiciones (novela a elección)",
       "texto_original": "6°B, C y D: LENGUAJE: Inicio de exposiciones (novela a elección)",
@@ -947,8 +1507,22 @@
       "origen": "6B|NOVIEMBRE|R7C1"
     },
     {
+      "fecha": "2026-11-18",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "10:00- 13:00: Graduación interna IV° medio",
+      "texto_original": "10:00- 13:00: Graduación interna IV° medio",
+      "tipo": "Actividad general",
+      "hoja": "NOVIEMBRE",
+      "origen": "6B|NOVIEMBRE|R7C3"
+    },
+    {
       "fecha": "2026-11-19",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Prueba de Comprensión de Lectura 2",
       "texto_original": "3°A y D: LENGUAJE: Prueba de Comprensión de Lectura 2",
@@ -959,6 +1533,8 @@
     {
       "fecha": "2026-11-19",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Matemáticas",
       "descripcion": "Evaluación DIA de cierre (no requiere estudio)",
       "texto_original": "6°A, B, C y D MATEMÁTICAS: Evaluación DIA de cierre (no requiere estudio)",
@@ -969,6 +1545,8 @@
     {
       "fecha": "2026-11-23",
       "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Inicio cierre de tema 6",
       "texto_original": "3°A, B, C y D: LENGUAJE: Inicio cierre de tema 6",
@@ -979,6 +1557,8 @@
     {
       "fecha": "2026-11-26",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Science",
       "descripcion": "Test 6°A: LENGUAJE: Cierre de tema 6",
       "texto_original": "6ºB: SCIENCE: Test 6°A: LENGUAJE: Cierre de tema 6",
@@ -989,12 +1569,122 @@
     {
       "fecha": "2026-11-30",
       "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
       "asignatura": "Lenguaje",
       "descripcion": "Cierre de tema 6",
       "texto_original": "6°B, C y D: LENGUAJE: Cierre de tema 6",
       "tipo": "Calendario oficial",
       "hoja": "NOVIEMBRE",
       "origen": "6B|NOVIEMBRE|R11C1"
+    },
+    {
+      "fecha": "2026-12-03",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "CIERRE ACADÉMICO",
+      "texto_original": "CIERRE ACADÉMICO",
+      "tipo": "Actividad general",
+      "hoja": "DICIEMBRE",
+      "origen": "6B|DICIEMBRE|R3C4"
+    },
+    {
+      "fecha": "2026-12-07",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "INTERFERIADO",
+      "texto_original": "INTERFERIADO",
+      "tipo": "Actividad general",
+      "hoja": "DICIEMBRE",
+      "origen": "3D|DICIEMBRE|R5C1"
+    },
+    {
+      "fecha": "2026-12-07",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "INTERFERIADO",
+      "texto_original": "INTERFERIADO",
+      "tipo": "Actividad general",
+      "hoja": "DICIEMBRE",
+      "origen": "6B|DICIEMBRE|R5C1"
+    },
+    {
+      "fecha": "2026-12-08",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "DÍA DE LA INMACULADA CONCEPCIÓN",
+      "texto_original": "DÍA DE LA INMACULADA CONCEPCIÓN",
+      "tipo": "Actividad general",
+      "hoja": "DICIEMBRE",
+      "origen": "3D|DICIEMBRE|R5C2"
+    },
+    {
+      "fecha": "2026-12-08",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "DÍA DE LA INMACULADA CONCEPCIÓN",
+      "texto_original": "DÍA DE LA INMACULADA CONCEPCIÓN",
+      "tipo": "Actividad general",
+      "hoja": "DICIEMBRE",
+      "origen": "6B|DICIEMBRE|R5C2"
+    },
+    {
+      "fecha": "2026-12-10",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "8:30- 12:30: English Challenge Cinema (winning class)",
+      "texto_original": "8:30- 12:30: English Challenge Cinema (winning class)",
+      "tipo": "Actividad general",
+      "hoja": "DICIEMBRE",
+      "origen": "6B|DICIEMBRE|R5C4"
+    },
+    {
+      "fecha": "2026-12-11",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "8:30- 9:40: Acción de Gracias ÚLTIMO DÍA DE CLASES",
+      "texto_original": "8:30- 9:40: Acción de Gracias ÚLTIMO DÍA DE CLASES",
+      "tipo": "Actividad general",
+      "hoja": "DICIEMBRE",
+      "origen": "6B|DICIEMBRE|R5C5"
+    },
+    {
+      "fecha": "2026-12-25",
+      "curso": "General 3°",
+      "nivel": "3°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "NAVIDAD",
+      "texto_original": "NAVIDAD",
+      "tipo": "Actividad general",
+      "hoja": "DICIEMBRE",
+      "origen": "3D|DICIEMBRE|R9C5"
+    },
+    {
+      "fecha": "2026-12-25",
+      "curso": "General 6°",
+      "nivel": "6°",
+      "es_general": true,
+      "asignatura": "Actividad escolar",
+      "descripcion": "NAVIDAD",
+      "texto_original": "NAVIDAD",
+      "tipo": "Actividad general",
+      "hoja": "DICIEMBRE",
+      "origen": "6B|DICIEMBRE|R9C5"
     }
   ]
 }
