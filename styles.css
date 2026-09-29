@@ -26,6 +26,8 @@ button:disabled{opacity:.55;cursor:wait}
 h1{margin:0;font-size:1.3rem;line-height:1.1}
 .icon-btn{width:42px;height:42px;border-radius:14px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.1);color:#fff;font-size:1.1rem}
 .app-main{padding-top:14px}
+.install-card{display:grid;grid-template-columns:48px 1fr auto;gap:12px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:18px;padding:12px;margin-bottom:12px;box-shadow:var(--shadow)}
+.install-card[hidden]{display:none!important}.install-mark{width:48px;height:48px;border-radius:14px;overflow:hidden;box-shadow:0 5px 14px rgba(24,50,74,.15)}.install-mark img{width:100%;height:100%;display:block}.install-copy{min-width:0}.install-copy strong{display:block;color:var(--navy);font-size:.92rem}.install-copy span{display:block;margin-top:3px;color:var(--muted);font-size:.76rem;line-height:1.35}.install-btn{border:0;border-radius:11px;background:var(--navy);color:#fff;font-size:.76rem;font-weight:850;padding:9px 11px}
 .next-card{background:linear-gradient(145deg,#18324a,#274f72);color:#fff;border-radius:22px;padding:18px;box-shadow:0 14px 34px rgba(24,50,74,.2)}
 .next-topline{display:flex;align-items:center;gap:8px;font-size:.76rem;font-weight:750;color:rgba(255,255,255,.78)}
 .next-topline small{margin-left:auto;font-weight:600;opacity:.75}
@@ -55,4 +57,5 @@ h1{margin:0;font-size:1.3rem;line-height:1.1}
 .toggle-line{display:grid!important;grid-template-columns:22px 1fr;align-items:start;gap:8px;background:#f7f9fb;border:1px solid var(--line);border-radius:12px;padding:11px!important;margin:14px 0!important}.toggle-line strong{display:block;font-size:.8rem;color:var(--ink)}.toggle-line small{display:block;margin-top:3px;color:var(--muted);font-weight:500;line-height:1.35}.privacy-note{display:block;margin-top:9px;color:var(--muted);font-size:.7rem;line-height:1.4;text-align:center}
 .alert-message{padding:10px 12px;border-radius:11px;margin:12px 0;font-size:.78rem;line-height:1.4;font-weight:700}.alert-message.info{background:#edf3f7;color:var(--navy)}.alert-message.success{background:#e8f5ee;color:var(--ok)}.alert-message.error{background:#fdeaea;color:var(--danger)}
 @media (min-width:680px){body{padding-bottom:28px}.bottom-nav{position:sticky;bottom:10px;border:1px solid var(--line);border-radius:18px;margin:0 auto 10px;width:min(500px,calc(100% - 24px))}.alert-card{grid-template-columns:46px 1fr auto}.alert-card .primary-btn{grid-column:auto}.next-card{padding:22px}.quick-summary{gap:12px}.check-grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:430px){.install-card{grid-template-columns:44px 1fr}.install-mark{width:44px;height:44px}.install-btn{grid-column:1/-1;width:100%}}
 @media (max-width:380px){.shell{width:calc(100% - 16px)}.quick-summary{gap:6px}.quick-summary article{padding:10px 5px}.next-grid{grid-template-columns:68px 1fr;gap:12px}}
