@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="app-header">
+  <header class="app-header" id="top">
     <div class="shell header-row">
       <div>
         <p class="eyebrow">Calendario escolar</p>
@@ -48,10 +48,7 @@
 
     <section class="section-block">
       <div class="section-head compact">
-        <div>
-          <p class="section-kicker">Filtrar</p>
-          <h3>¿Qué quieres ver?</h3>
-        </div>
+        <div><p class="section-kicker">Filtrar</p><h3>¿Qué quieres ver?</h3></div>
       </div>
       <div class="filters" aria-label="Filtros por curso">
         <button class="filter active" data-course="all">Todos</button>
@@ -62,47 +59,25 @@
 
     <section class="agenda-section" id="agendaSection">
       <div class="section-head">
-        <div>
-          <p class="section-kicker">Agenda</p>
-          <h3>Próximos compromisos</h3>
-        </div>
+        <div><p class="section-kicker">Agenda</p><h3>Próximos compromisos</h3></div>
         <span id="resultCount" class="pill">0</span>
       </div>
-
-      <div id="todayGroup" class="agenda-group" hidden>
-        <div class="group-title"><span class="group-dot today-dot"></span>Hoy</div>
-        <div id="todayList" class="evaluation-list"></div>
-      </div>
-
-      <div id="weekGroup" class="agenda-group" hidden>
-        <div class="group-title"><span class="group-dot week-dot"></span>Próximos 7 días</div>
-        <div id="weekList" class="evaluation-list"></div>
-      </div>
-
-      <div id="laterGroup" class="agenda-group" hidden>
-        <div class="group-title"><span class="group-dot later-dot"></span>Más adelante</div>
-        <div id="laterList" class="evaluation-list"></div>
-      </div>
-
-      <div id="emptyState" class="empty-state" hidden>
-        <div class="empty-icon">✓</div>
-        <h4>No hay compromisos para mostrar</h4>
-        <p>No existen registros pendientes para el filtro seleccionado.</p>
-      </div>
+      <div id="todayGroup" class="agenda-group" hidden><div class="group-title"><span class="group-dot today-dot"></span>Hoy</div><div id="todayList" class="evaluation-list"></div></div>
+      <div id="weekGroup" class="agenda-group" hidden><div class="group-title"><span class="group-dot week-dot"></span>Próximos 7 días</div><div id="weekList" class="evaluation-list"></div></div>
+      <div id="laterGroup" class="agenda-group" hidden><div class="group-title"><span class="group-dot later-dot"></span>Más adelante</div><div id="laterList" class="evaluation-list"></div></div>
+      <div id="emptyState" class="empty-state" hidden><div class="empty-icon">✓</div><h4>No hay compromisos para mostrar</h4><p>No existen registros pendientes para el filtro seleccionado.</p></div>
     </section>
 
     <section class="alert-card" id="alertsSection">
       <div class="alert-icon">✉</div>
       <div>
-        <h3>Recibe avisos por correo</h3>
-        <p>Configura desde la app qué cursos quieres seguir y con cuánta anticipación recibir un aviso.</p>
+        <div class="alert-title-row"><h3>Avisos por correo</h3><span id="alertStatusBadge" class="status-badge inactive">No configurado</span></div>
+        <p id="alertSummary">Recibe nuevas actividades, cambios y recordatorios directamente en tu correo.</p>
       </div>
       <button class="primary-btn" id="openAlertsInline">Configurar</button>
     </section>
 
-    <section class="source-note">
-      <strong>Fuente oficial:</strong> calendarios publicados por Colegio Andrée English School. La vista muestra sólo información aplicable a 3°D y 6°B.
-    </section>
+    <section class="source-note"><strong>Fuente oficial:</strong> calendarios publicados por Colegio Andrée English School. La vista muestra sólo información aplicable a 3°D y 6°B.</section>
   </main>
 
   <nav class="bottom-nav" aria-label="Navegación principal">
@@ -112,31 +87,40 @@
   </nav>
 
   <dialog id="alertsDialog" class="alerts-dialog">
-    <form method="dialog" class="alerts-panel">
+    <form class="alerts-panel" id="alertsForm">
       <div class="dialog-head">
-        <div>
-          <p class="section-kicker">Notificaciones</p>
-          <h3>Avisos por correo</h3>
-        </div>
-        <button class="close-btn" value="cancel" aria-label="Cerrar">×</button>
+        <div><p class="section-kicker">Notificaciones</p><h3>Avisos por correo</h3></div>
+        <button class="close-btn" type="button" id="closeAlerts" aria-label="Cerrar">×</button>
       </div>
-      <p class="dialog-copy">La interfaz ya está preparada. La activación del envío requiere conectar un servicio seguro de suscripción y correo.</p>
-      <label>Email
-        <input id="alertEmail" type="email" placeholder="nombre@correo.cl" autocomplete="email" />
-      </label>
-      <div class="check-row">
-        <label><input type="checkbox" checked /> 3°D</label>
-        <label><input type="checkbox" checked /> 6°B</label>
+
+      <div id="alertMessage" class="alert-message" hidden></div>
+
+      <div id="subscribeFields">
+        <p class="dialog-copy">Elige qué cursos seguir. Te enviaremos un correo de confirmación antes de activar los avisos.</p>
+        <label>Email
+          <input id="alertEmail" type="email" placeholder="nombre@correo.cl" autocomplete="email" required />
+        </label>
+        <fieldset class="pref-group">
+          <legend>Cursos</legend>
+          <div class="check-row">
+            <label><input id="course3D" type="checkbox" checked /> 3°D</label>
+            <label><input id="course6B" type="checkbox" checked /> 6°B</label>
+          </div>
+        </fieldset>
+        <fieldset class="pref-group">
+          <legend>Recordatorios</legend>
+          <div class="check-grid">
+            <label><input class="reminder-day" type="checkbox" value="1" /> 1 día antes</label>
+            <label><input class="reminder-day" type="checkbox" value="3" checked /> 3 días antes</label>
+            <label><input class="reminder-day" type="checkbox" value="7" /> 7 días antes</label>
+          </div>
+        </fieldset>
+        <label class="toggle-line"><input id="notifyChanges" type="checkbox" checked /><span><strong>Nuevas actividades y cambios</strong><small>Aviso cuando el colegio agregue o modifique un compromiso.</small></span></label>
       </div>
-      <label>Avisar con anticipación
-        <select>
-          <option>1 día antes</option>
-          <option selected>3 días antes</option>
-          <option>7 días antes</option>
-        </select>
-      </label>
-      <button type="button" class="primary-btn full" id="saveAlerts">Activación pendiente</button>
-      <small class="privacy-note">El correo no se guardará hasta conectar el backend de notificaciones.</small>
+
+      <button type="submit" class="primary-btn full" id="saveAlerts">Enviar confirmación</button>
+      <button type="button" class="danger-btn full" id="unsubscribeAlerts" hidden>Desactivar avisos</button>
+      <small class="privacy-note">Tu correo se usa únicamente para estos avisos. Puedes desactivarlos desde esta misma pantalla.</small>
     </form>
   </dialog>
 
