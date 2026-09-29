@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#18324a" />
+  <title>Calendario escolar · 3°D y 6°B</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <div>
+        <p class="eyebrow">Calendario escolar</p>
+        <h1>Evaluaciones · 3°D y 6°B</h1>
+      </div>
+      <div class="update-box">
+        <span class="status-dot" aria-hidden="true"></span>
+        <div>
+          <small>Última actualización</small>
+          <strong id="lastUpdate">—</strong>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <div>
+        <p class="hero-kicker">Vista familiar</p>
+        <h2>Lo importante, antes de que llegue la fecha.</h2>
+        <p class="hero-copy">Consulta las evaluaciones calendarizadas para 3°D y 6°B, ordenadas por cercanía.</p>
+      </div>
+      <div class="hero-countdown">
+        <span>Próxima evaluación</span>
+        <strong id="nextCountdown">—</strong>
+        <small id="nextLabel">Sin datos cargados</small>
+      </div>
+    </section>
+
+    <section class="filters" aria-label="Filtros">
+      <button class="filter active" data-course="all">Todos</button>
+      <button class="filter" data-course="3D">3°D</button>
+      <button class="filter" data-course="6B">6°B</button>
+    </section>
+
+    <section class="summary-grid" aria-label="Resumen">
+      <article class="metric-card">
+        <span>Próximos 7 días</span>
+        <strong id="metricWeek">0</strong>
+      </article>
+      <article class="metric-card">
+        <span>3°D pendientes</span>
+        <strong id="metric3D">0</strong>
+      </article>
+      <article class="metric-card">
+        <span>6°B pendientes</span>
+        <strong id="metric6B">0</strong>
+      </article>
+      <article class="metric-card">
+        <span>Total pendientes</span>
+        <strong id="metricTotal">0</strong>
+      </article>
+    </section>
+
+    <section class="content-card">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Agenda</p>
+          <h3>Próximas evaluaciones</h3>
+        </div>
+        <span id="resultCount" class="pill">0 registros</span>
+      </div>
+      <div id="emptyState" class="empty-state" hidden>
+        <div class="empty-icon">✓</div>
+        <h4>No hay evaluaciones para mostrar</h4>
+        <p>La estructura está lista. Al sincronizar las fuentes oficiales aparecerán aquí los registros de 3°D y 6°B.</p>
+      </div>
+      <div id="evaluationList" class="evaluation-list"></div>
+    </section>
+
+    <section class="source-note">
+      <strong>Fuente:</strong> calendarios de evaluaciones publicados por Colegio Andrée English School. Esta vista filtra únicamente 3°D y 6°B.
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
