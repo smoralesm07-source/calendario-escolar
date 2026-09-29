@@ -2,87 +2,143 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#18324a" />
   <title>Calendario escolar · 3°D y 6°B</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="topbar">
-    <div class="shell topbar-inner">
+  <header class="app-header">
+    <div class="shell header-row">
       <div>
         <p class="eyebrow">Calendario escolar</p>
-        <h1>Evaluaciones · 3°D y 6°B</h1>
+        <h1>3°D · 6°B</h1>
       </div>
-      <div class="update-box">
-        <span class="status-dot" aria-hidden="true"></span>
-        <div>
-          <small>Última actualización</small>
-          <strong id="lastUpdate">—</strong>
-        </div>
-      </div>
+      <button class="icon-btn" id="openAlerts" aria-label="Configurar avisos">✉</button>
     </div>
   </header>
 
-  <main class="shell">
-    <section class="hero">
-      <div>
-        <p class="hero-kicker">Vista familiar</p>
-        <h2>Lo importante, antes de que llegue la fecha.</h2>
-        <p class="hero-copy">Consulta las evaluaciones calendarizadas para 3°D y 6°B, ordenadas por cercanía.</p>
+  <main class="shell app-main">
+    <section class="next-card" aria-label="Próximo compromiso">
+      <div class="next-topline">
+        <span class="live-dot"></span>
+        <span>Próximo compromiso</span>
+        <small id="lastUpdate">—</small>
       </div>
-      <div class="hero-countdown">
-        <span>Próxima evaluación</span>
-        <strong id="nextCountdown">—</strong>
-        <small id="nextLabel">Sin datos cargados</small>
+      <div class="next-grid">
+        <div class="next-date">
+          <strong id="nextDay">—</strong>
+          <span id="nextMonth">—</span>
+        </div>
+        <div class="next-info">
+          <span id="nextCourse" class="course-chip">—</span>
+          <h2 id="nextTitle">Sin evaluaciones pendientes</h2>
+          <p id="nextDescription">Cuando existan compromisos próximos aparecerán aquí.</p>
+          <div class="countdown-pill" id="nextCountdown">—</div>
+        </div>
       </div>
     </section>
 
-    <section class="filters" aria-label="Filtros">
-      <button class="filter active" data-course="all">Todos</button>
-      <button class="filter" data-course="3D">3°D</button>
-      <button class="filter" data-course="6B">6°B</button>
+    <section class="quick-summary" aria-label="Resumen rápido">
+      <article><span>Hoy</span><strong id="metricToday">0</strong></article>
+      <article><span>7 días</span><strong id="metricWeek">0</strong></article>
+      <article><span>3°D</span><strong id="metric3D">0</strong></article>
+      <article><span>6°B</span><strong id="metric6B">0</strong></article>
     </section>
 
-    <section class="summary-grid" aria-label="Resumen">
-      <article class="metric-card">
-        <span>Próximos 7 días</span>
-        <strong id="metricWeek">0</strong>
-      </article>
-      <article class="metric-card">
-        <span>3°D pendientes</span>
-        <strong id="metric3D">0</strong>
-      </article>
-      <article class="metric-card">
-        <span>6°B pendientes</span>
-        <strong id="metric6B">0</strong>
-      </article>
-      <article class="metric-card">
-        <span>Total pendientes</span>
-        <strong id="metricTotal">0</strong>
-      </article>
+    <section class="section-block">
+      <div class="section-head compact">
+        <div>
+          <p class="section-kicker">Filtrar</p>
+          <h3>¿Qué quieres ver?</h3>
+        </div>
+      </div>
+      <div class="filters" aria-label="Filtros por curso">
+        <button class="filter active" data-course="all">Todos</button>
+        <button class="filter" data-course="3D">3°D</button>
+        <button class="filter" data-course="6B">6°B</button>
+      </div>
     </section>
 
-    <section class="content-card">
+    <section class="agenda-section" id="agendaSection">
       <div class="section-head">
         <div>
           <p class="section-kicker">Agenda</p>
-          <h3>Próximas evaluaciones</h3>
+          <h3>Próximos compromisos</h3>
         </div>
-        <span id="resultCount" class="pill">0 registros</span>
+        <span id="resultCount" class="pill">0</span>
       </div>
+
+      <div id="todayGroup" class="agenda-group" hidden>
+        <div class="group-title"><span class="group-dot today-dot"></span>Hoy</div>
+        <div id="todayList" class="evaluation-list"></div>
+      </div>
+
+      <div id="weekGroup" class="agenda-group" hidden>
+        <div class="group-title"><span class="group-dot week-dot"></span>Próximos 7 días</div>
+        <div id="weekList" class="evaluation-list"></div>
+      </div>
+
+      <div id="laterGroup" class="agenda-group" hidden>
+        <div class="group-title"><span class="group-dot later-dot"></span>Más adelante</div>
+        <div id="laterList" class="evaluation-list"></div>
+      </div>
+
       <div id="emptyState" class="empty-state" hidden>
         <div class="empty-icon">✓</div>
-        <h4>No hay evaluaciones para mostrar</h4>
-        <p>La estructura está lista. Al sincronizar las fuentes oficiales aparecerán aquí los registros de 3°D y 6°B.</p>
+        <h4>No hay compromisos para mostrar</h4>
+        <p>No existen registros pendientes para el filtro seleccionado.</p>
       </div>
-      <div id="evaluationList" class="evaluation-list"></div>
+    </section>
+
+    <section class="alert-card" id="alertsSection">
+      <div class="alert-icon">✉</div>
+      <div>
+        <h3>Recibe avisos por correo</h3>
+        <p>Configura desde la app qué cursos quieres seguir y con cuánta anticipación recibir un aviso.</p>
+      </div>
+      <button class="primary-btn" id="openAlertsInline">Configurar</button>
     </section>
 
     <section class="source-note">
-      <strong>Fuente:</strong> calendarios de evaluaciones publicados por Colegio Andrée English School. Esta vista filtra únicamente 3°D y 6°B.
+      <strong>Fuente oficial:</strong> calendarios publicados por Colegio Andrée English School. La vista muestra sólo información aplicable a 3°D y 6°B.
     </section>
   </main>
+
+  <nav class="bottom-nav" aria-label="Navegación principal">
+    <button class="nav-item active" data-target="top"><span>⌂</span><small>Inicio</small></button>
+    <button class="nav-item" data-target="agendaSection"><span>☷</span><small>Agenda</small></button>
+    <button class="nav-item" data-target="alertsSection"><span>✉</span><small>Avisos</small></button>
+  </nav>
+
+  <dialog id="alertsDialog" class="alerts-dialog">
+    <form method="dialog" class="alerts-panel">
+      <div class="dialog-head">
+        <div>
+          <p class="section-kicker">Notificaciones</p>
+          <h3>Avisos por correo</h3>
+        </div>
+        <button class="close-btn" value="cancel" aria-label="Cerrar">×</button>
+      </div>
+      <p class="dialog-copy">La interfaz ya está preparada. La activación del envío requiere conectar un servicio seguro de suscripción y correo.</p>
+      <label>Email
+        <input id="alertEmail" type="email" placeholder="nombre@correo.cl" autocomplete="email" />
+      </label>
+      <div class="check-row">
+        <label><input type="checkbox" checked /> 3°D</label>
+        <label><input type="checkbox" checked /> 6°B</label>
+      </div>
+      <label>Avisar con anticipación
+        <select>
+          <option>1 día antes</option>
+          <option selected>3 días antes</option>
+          <option>7 días antes</option>
+        </select>
+      </label>
+      <button type="button" class="primary-btn full" id="saveAlerts">Activación pendiente</button>
+      <small class="privacy-note">El correo no se guardará hasta conectar el backend de notificaciones.</small>
+    </form>
+  </dialog>
 
   <script src="app.js"></script>
 </body>
