@@ -46,17 +46,17 @@ jobs:
       - name: Procesar avisos y recordatorios
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_PUBLISHABLE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: |
-          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_PUBLISHABLE_KEY" ]; then
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_ANON_KEY" ]; then
             echo "Faltan secretos de Supabase: se omite el envío de avisos."
             exit 0
           fi
           sleep 3
           curl --fail --silent --show-error \
             --request POST \
-            --header "Authorization: Bearer $SUPABASE_PUBLISHABLE_KEY" \
-            --header "apikey: $SUPABASE_PUBLISHABLE_KEY" \
+            --header "Authorization: Bearer $SUPABASE_ANON_KEY" \
+            --header "apikey: $SUPABASE_ANON_KEY" \
             --header "Content-Type: application/json" \
             --data '{}' \
             "$SUPABASE_URL/functions/v1/school-alert-notify"
