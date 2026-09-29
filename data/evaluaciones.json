@@ -1,5 +1,5 @@
 {
-  "actualizado_en": "29-09-2026 18:59",
+  "actualizado_en": "29-09-2026 19:10",
   "fuente": "Colegio Andrée English School",
   "cursos": [
     "3°D",
@@ -13,7 +13,8 @@
       "descripcion": "Jornada de Orientación 3°C LENG: Evaluación DIA",
       "texto_original": "3°D: Jornada de Orientación 3°C LENG: Evaluación DIA",
       "tipo": "Calendario oficial",
-      "hoja": "MARZO"
+      "hoja": "MARZO",
+      "origen": "3D|MARZO|R7C1"
     },
     {
       "fecha": "2026-03-16",
@@ -22,7 +23,8 @@
       "descripcion": "Evaluación DIA",
       "texto_original": "6°B y C: LENGUAJE: Evaluación DIA",
       "tipo": "Calendario oficial",
-      "hoja": "MARZO"
+      "hoja": "MARZO",
+      "origen": "6B|MARZO|R7C1"
     },
     {
       "fecha": "2026-03-18",
@@ -31,7 +33,8 @@
       "descripcion": "classwork \"Causes and stages of the Independence\" 6°D: LENGUAJE: Evaluación DIA",
       "texto_original": "6°B and D: SOCIAL STUDIES: classwork \"Causes and stages of the Independence\" 6°D: LENGUAJE: Evaluación DIA",
       "tipo": "Calendario oficial",
-      "hoja": "MARZO"
+      "hoja": "MARZO",
+      "origen": "6B|MARZO|R7C3"
     },
     {
       "fecha": "2026-03-25",
@@ -40,7 +43,8 @@
       "descripcion": "Lámina de diseño en CANVA",
       "texto_original": "6°B y D: ARTE y TECNOLOGÍA: Lámina de diseño en CANVA",
       "tipo": "Calendario oficial",
-      "hoja": "MARZO"
+      "hoja": "MARZO",
+      "origen": "6B|MARZO|R9C3"
     },
     {
       "fecha": "2026-03-26",
@@ -49,7 +53,8 @@
       "descripcion": "Plan lector \"El secuestro de la bibliotecaria\"",
       "texto_original": "3° A y D LENG: Plan lector \"El secuestro de la bibliotecaria\"",
       "tipo": "Calendario oficial",
-      "hoja": "MARZO"
+      "hoja": "MARZO",
+      "origen": "3D|MARZO|R9C4"
     },
     {
       "fecha": "2026-03-31",
@@ -58,7 +63,8 @@
       "descripcion": "8:00- 8:30: Reflexión Legado Miss Janine 8:30- 9:40: Reflexión de Semana Santa 6°A y B LENGUAJE: Plan lector 1 \"Asesinato en el Canadian Express\"",
       "texto_original": "8:00- 8:30: Reflexión Legado Miss Janine 8:30- 9:40: Reflexión de Semana Santa 6°A y B LENGUAJE: Plan lector 1 \"Asesinato en el Canadian Express\"",
       "tipo": "Calendario oficial",
-      "hoja": "MARZO"
+      "hoja": "MARZO",
+      "origen": "6B|MARZO|R11C2"
     },
     {
       "fecha": "2026-04-06",
@@ -67,7 +73,8 @@
       "descripcion": "Inicio trabajo de cierre de tema 1 (Collage de identidad)",
       "texto_original": "6° B, C y D LENG: Inicio trabajo de cierre de tema 1 (Collage de identidad)",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "6B|ABRIL|R5C1"
     },
     {
       "fecha": "2026-04-07",
@@ -76,7 +83,8 @@
       "descripcion": "classwork \"Organization and consolidation of the Republic) 6°D: MATEMÁTICA: Evaluación 6° A LENGUAJE: Inicio trabajo de cierre de tema 1 (Collage de identidad)",
       "texto_original": "6°B and D: SOCIAL STUDIES: classwork \"Organization and consolidation of the Republic) 6°D: MATEMÁTICA: Evaluación 6° A LENGUAJE: Inicio trabajo de cierre de tema 1 (Collage de identidad)",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "6B|ABRIL|R5C2"
     },
     {
       "fecha": "2026-04-08",
@@ -85,7 +93,8 @@
       "descripcion": "Evaluación ARTE Natural Disasters 3° A y C Social Studies: Rights and Duties Assessment",
       "texto_original": "3°D Evaluación ARTE Natural Disasters 3° A y C Social Studies: Rights and Duties Assessment",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "3D|ABRIL|R5C3"
     },
     {
       "fecha": "2026-04-09",
@@ -94,7 +103,8 @@
       "descripcion": "Rights and Duties Assessment 3° C Maths: Numbers Assessment (Stations)",
       "texto_original": "3° B y D Social Studies: Rights and Duties Assessment 3° C Maths: Numbers Assessment (Stations)",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "3D|ABRIL|R5C4"
     },
     {
       "fecha": "2026-04-09",
@@ -103,7 +113,8 @@
       "descripcion": "Evaluación escrita",
       "texto_original": "6°A, B y C: MATEMÁTICA: Evaluación escrita",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "6B|ABRIL|R5C4"
     },
     {
       "fecha": "2026-04-10",
@@ -112,7 +123,8 @@
       "descripcion": "Numbers Assessment (Stations)",
       "texto_original": "3° A, B y D Maths: Numbers Assessment (Stations)",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "3D|ABRIL|R5C5"
     },
     {
       "fecha": "2026-04-13",
@@ -121,7 +133,8 @@
       "descripcion": "Inicio de evaluación tema transdisciplinar 1",
       "texto_original": "3°A, B, C Y D LENG: Inicio de evaluación tema transdisciplinar 1",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "3D|ABRIL|R7C1"
     },
     {
       "fecha": "2026-04-13",
@@ -130,7 +143,8 @@
       "descripcion": "Storytelling (Food traditions) (Entrega)",
       "texto_original": "6°A, B, C, D ENGLISH: Storytelling (Food traditions) (Entrega)",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "6B|ABRIL|R7C1"
     },
     {
       "fecha": "2026-04-14",
@@ -139,7 +153,8 @@
       "descripcion": "Storytelling (Food traditions)",
       "texto_original": "6°A, B, C, D ENGLISH: Storytelling (Food traditions)",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "6B|ABRIL|R7C2"
     },
     {
       "fecha": "2026-04-15",
@@ -148,7 +163,8 @@
       "descripcion": "Storytelling (Food traditions)",
       "texto_original": "6°A, B, C, D ENGLISH: Storytelling (Food traditions)",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "6B|ABRIL|R7C3"
     },
     {
       "fecha": "2026-04-16",
@@ -157,7 +173,8 @@
       "descripcion": "Careers fair",
       "texto_original": "3° A, B, C, D ENGLISH: Careers fair",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "3D|ABRIL|R7C4"
     },
     {
       "fecha": "2026-04-16",
@@ -166,7 +183,8 @@
       "descripcion": "Test",
       "texto_original": "6ºB: SCIENCE: Test",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "6B|ABRIL|R7C4"
     },
     {
       "fecha": "2026-04-21",
@@ -175,7 +193,8 @@
       "descripcion": "Weekly School Menú Presentation",
       "texto_original": "3° B y D: Natural Science: Weekly School Menú Presentation",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "3D|ABRIL|R9C2"
     },
     {
       "fecha": "2026-04-23",
@@ -184,7 +203,8 @@
       "descripcion": "Computación 3°A LENG: Evaluación Plan lector 2 \"La calle más aburrida del mundo\"",
       "texto_original": "3C y 3D TECNO: Computación 3°A LENG: Evaluación Plan lector 2 \"La calle más aburrida del mundo\"",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "3D|ABRIL|R9C4"
     },
     {
       "fecha": "2026-04-23",
@@ -193,7 +213,8 @@
       "descripcion": "Percy Jackson (Interview to a god)",
       "texto_original": "6°A, B, C, D: Percy Jackson (Interview to a god)",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "6B|ABRIL|R9C4"
     },
     {
       "fecha": "2026-04-24",
@@ -202,7 +223,8 @@
       "descripcion": "Percy Jackson (Interview to a god",
       "texto_original": "6°A, B, C, D: Percy Jackson (Interview to a god",
       "tipo": "Calendario oficial",
-      "hoja": "ABRIL"
+      "hoja": "ABRIL",
+      "origen": "6B|ABRIL|R9C5"
     },
     {
       "fecha": "2026-05-04",
@@ -211,7 +233,8 @@
       "descripcion": "Inicio trabajo Plan lector 2 \"Harry Potter y la cámara secreta o el prisionero de Azkabán\"",
       "texto_original": "6°B, C y D: LENGUAJE: Inicio trabajo Plan lector 2 \"Harry Potter y la cámara secreta o el prisionero de Azkabán\"",
       "tipo": "Calendario oficial",
-      "hoja": "MAYO"
+      "hoja": "MAYO",
+      "origen": "6B|MAYO|R5C1"
     },
     {
       "fecha": "2026-05-05",
@@ -220,7 +243,8 @@
       "descripcion": "Evaluación arte de escultura 6ºA and C: SCIENCE: Guía acumulativa Nº1 6° B y D: SOCIAL STUDIES; start classwork \" Territorial changes and Social Cuestion\"",
       "texto_original": "6°C: ARTE y Tecnologia: Evaluación arte de escultura 6ºA and C: SCIENCE: Guía acumulativa Nº1 6° B y D: SOCIAL STUDIES; start classwork \" Territorial changes and Social Cuestion\"",
       "tipo": "Calendario oficial",
-      "hoja": "MAYO"
+      "hoja": "MAYO",
+      "origen": "6B|MAYO|R5C2"
     },
     {
       "fecha": "2026-05-06",
@@ -229,7 +253,8 @@
       "descripcion": "finish classwork \" Territorial changes and Social Cuestion\" 6°A SOCIAL STUDIES: start classwork \" Territorial changes and Social Cuestion\" 6°D: ARTE y Tecnologia: Evaluación escultura",
       "texto_original": "6°B and 6°D: SOCIAL STUDIES: finish classwork \" Territorial changes and Social Cuestion\" 6°A SOCIAL STUDIES: start classwork \" Territorial changes and Social Cuestion\" 6°D: ARTE y Tecnologia: Evaluación escultura",
       "tipo": "Calendario oficial",
-      "hoja": "MAYO"
+      "hoja": "MAYO",
+      "origen": "6B|MAYO|R5C3"
     },
     {
       "fecha": "2026-05-07",
@@ -238,7 +263,8 @@
       "descripcion": "Guía acumulativa Nº1 6°C SOCIAL STUDIES: start classwork \" Territorial chanfes and Social Cuestion\"",
       "texto_original": "6ºB and D: SCIENCE: Guía acumulativa Nº1 6°C SOCIAL STUDIES: start classwork \" Territorial chanfes and Social Cuestion\"",
       "tipo": "Calendario oficial",
-      "hoja": "MAYO"
+      "hoja": "MAYO",
+      "origen": "6B|MAYO|R5C4"
     },
     {
       "fecha": "2026-05-08",
@@ -247,7 +273,8 @@
       "descripcion": "Patterns, Addition and Subtractions.",
       "texto_original": "3° A, B, C and D Math Assessment: Patterns, Addition and Subtractions.",
       "tipo": "Calendario oficial",
-      "hoja": "MAYO"
+      "hoja": "MAYO",
+      "origen": "3D|MAYO|R5C5"
     },
     {
       "fecha": "2026-05-25",
@@ -256,7 +283,8 @@
       "descripcion": "Inventor's pitch",
       "texto_original": "6°A, B, C, D ENGLISH: Inventor's pitch",
       "tipo": "Calendario oficial",
-      "hoja": "MAYO"
+      "hoja": "MAYO",
+      "origen": "6B|MAYO|R11C1"
     },
     {
       "fecha": "2026-05-26",
@@ -265,7 +293,8 @@
       "descripcion": "Evaluación Plan lector 3 \"Roald Dahl\" 3°A 3°B Y 3°D ARTE Grece sgrafitto 3°B y D Natural Science: Sounds Lab",
       "texto_original": "3°C LENG: Evaluación Plan lector 3 \"Roald Dahl\" 3°A 3°B Y 3°D ARTE Grece sgrafitto 3°B y D Natural Science: Sounds Lab",
       "tipo": "Calendario oficial",
-      "hoja": "MAYO"
+      "hoja": "MAYO",
+      "origen": "3D|MAYO|R11C2"
     },
     {
       "fecha": "2026-05-26",
@@ -274,7 +303,8 @@
       "descripcion": "Evaluación acumulativa de cierre (tema 2).",
       "texto_original": "6°B: LENGUAJE: Evaluación acumulativa de cierre (tema 2).",
       "tipo": "Calendario oficial",
-      "hoja": "MAYO"
+      "hoja": "MAYO",
+      "origen": "6B|MAYO|R11C2"
     },
     {
       "fecha": "2026-05-28",
@@ -283,7 +313,8 @@
       "descripcion": "Evaluación Plan lector 3 \"Roald Dahl\" 3°C Natural Science: Sounds Lab",
       "texto_original": "3°A y D LENG: Evaluación Plan lector 3 \"Roald Dahl\" 3°C Natural Science: Sounds Lab",
       "tipo": "Calendario oficial",
-      "hoja": "MAYO"
+      "hoja": "MAYO",
+      "origen": "3D|MAYO|R11C4"
     },
     {
       "fecha": "2026-05-28",
@@ -292,7 +323,8 @@
       "descripcion": "Guía acumulativa Nº2 6°A: LENGUAJE: Evaluación acumulativa de cierre (tema 2).",
       "texto_original": "6ºB: SCIENCE: Guía acumulativa Nº2 6°A: LENGUAJE: Evaluación acumulativa de cierre (tema 2).",
       "tipo": "Calendario oficial",
-      "hoja": "MAYO"
+      "hoja": "MAYO",
+      "origen": "6B|MAYO|R11C4"
     },
     {
       "fecha": "2026-06-01",
@@ -301,7 +333,8 @@
       "descripcion": "Inicio de evaluación de cierre de tema 2",
       "texto_original": "3°A, B, C y D LENG: Inicio de evaluación de cierre de tema 2",
       "tipo": "Calendario oficial",
-      "hoja": "JUNIO"
+      "hoja": "JUNIO",
+      "origen": "3D|JUNIO|R3C1"
     },
     {
       "fecha": "2026-06-01",
@@ -310,7 +343,8 @@
       "descripcion": "Prueba escrita de multiplicación y división de decimales y problemas",
       "texto_original": "6° A, B, C y D: MATEMÁTICA: Prueba escrita de multiplicación y división de decimales y problemas",
       "tipo": "Calendario oficial",
-      "hoja": "JUNIO"
+      "hoja": "JUNIO",
+      "origen": "6B|JUNIO|R3C1"
     },
     {
       "fecha": "2026-06-04",
@@ -319,7 +353,8 @@
       "descripcion": "Magazine submission 3ºc y 3ºD Tecnología: Secret Code",
       "texto_original": "3° A, B, C y D Social Studies/English: Magazine submission 3ºc y 3ºD Tecnología: Secret Code",
       "tipo": "Calendario oficial",
-      "hoja": "JUNIO"
+      "hoja": "JUNIO",
+      "origen": "3D|JUNIO|R3C4"
     },
     {
       "fecha": "2026-06-05",
@@ -328,7 +363,8 @@
       "descripcion": "ENGLISH Percy Jackson Quiz 1",
       "texto_original": "6°A, B, C, D: ENGLISH Percy Jackson Quiz 1",
       "tipo": "Calendario oficial",
-      "hoja": "JUNIO"
+      "hoja": "JUNIO",
+      "origen": "6B|JUNIO|R3C5"
     },
     {
       "fecha": "2026-06-11",
@@ -337,7 +373,8 @@
       "descripcion": "Exposición y análisis de gráficos",
       "texto_original": "6° B: MATEMÁTICA: Exposición y análisis de gráficos",
       "tipo": "Calendario oficial",
-      "hoja": "JUNIO"
+      "hoja": "JUNIO",
+      "origen": "6B|JUNIO|R5C4"
     },
     {
       "fecha": "2026-06-17",
@@ -346,7 +383,8 @@
       "descripcion": "Listening and grammar Quiz",
       "texto_original": "6° A, B, C, D ENGLISH: Listening and grammar Quiz",
       "tipo": "Calendario oficial",
-      "hoja": "JUNIO"
+      "hoja": "JUNIO",
+      "origen": "6B|JUNIO|R7C3"
     },
     {
       "fecha": "2026-06-18",
@@ -355,7 +393,8 @@
       "descripcion": "Prueba de Unidad",
       "texto_original": "3°A y D LENG: Prueba de Unidad",
       "tipo": "Calendario oficial",
-      "hoja": "JUNIO"
+      "hoja": "JUNIO",
+      "origen": "3D|JUNIO|R7C4"
     },
     {
       "fecha": "2026-06-22",
@@ -364,7 +403,8 @@
       "descripcion": "Evaluación Plan Lector 4 \"La cabaña en el árbol\"",
       "texto_original": "3°A, C y D LENG: Evaluación Plan Lector 4 \"La cabaña en el árbol\"",
       "tipo": "Calendario oficial",
-      "hoja": "JUNIO"
+      "hoja": "JUNIO",
+      "origen": "3D|JUNIO|R9C1"
     },
     {
       "fecha": "2026-06-22",
@@ -373,7 +413,8 @@
       "descripcion": "9:55: SOCIAL: Comprehensive test 6°A y B: TECNOLOGÍA: Makey Makey",
       "texto_original": "9:55: SOCIAL: Comprehensive test 6°A y B: TECNOLOGÍA: Makey Makey",
       "tipo": "Calendario oficial",
-      "hoja": "JUNIO"
+      "hoja": "JUNIO",
+      "origen": "6B|JUNIO|R9C1"
     },
     {
       "fecha": "2026-06-23",
@@ -382,7 +423,8 @@
       "descripcion": "Prueba de Comprensión de Lectura (PCL 1)",
       "texto_original": "6°A y B: LENGUAJE: Prueba de Comprensión de Lectura (PCL 1)",
       "tipo": "Calendario oficial",
-      "hoja": "JUNIO"
+      "hoja": "JUNIO",
+      "origen": "6B|JUNIO|R9C2"
     },
     {
       "fecha": "2026-06-24",
@@ -391,7 +433,8 @@
       "descripcion": "Unit 4 Quiz 1",
       "texto_original": "3°A-B-C-D English: Unit 4 Quiz 1",
       "tipo": "Calendario oficial",
-      "hoja": "JUNIO"
+      "hoja": "JUNIO",
+      "origen": "3D|JUNIO|R9C3"
     },
     {
       "fecha": "2026-06-26",
@@ -400,7 +443,8 @@
       "descripcion": "Multiplication Concept Presentation",
       "texto_original": "3°A, B, C and D Math: Multiplication Concept Presentation",
       "tipo": "Calendario oficial",
-      "hoja": "JUNIO"
+      "hoja": "JUNIO",
+      "origen": "3D|JUNIO|R9C5"
     },
     {
       "fecha": "2026-07-02",
@@ -409,7 +453,8 @@
       "descripcion": "Percy Jackson Quiz 2",
       "texto_original": "6° B: ENGLISH: Percy Jackson Quiz 2",
       "tipo": "Calendario oficial",
-      "hoja": "JULIO"
+      "hoja": "JULIO",
+      "origen": "6B|JULIO|R3C4"
     },
     {
       "fecha": "2026-07-22",
@@ -418,7 +463,8 @@
       "descripcion": "Pintura abstracta Judy Chicago 6ºB y 6ºC Tecnología: Makey Makey",
       "texto_original": "6°D: ARTE: Pintura abstracta Judy Chicago 6ºB y 6ºC Tecnología: Makey Makey",
       "tipo": "Calendario oficial",
-      "hoja": "JULIO"
+      "hoja": "JULIO",
+      "origen": "6B|JULIO|R9C3"
     },
     {
       "fecha": "2026-07-23",
@@ -427,7 +473,8 @@
       "descripcion": "DIA intermedio (no requiere estudio)",
       "texto_original": "3° A y D LENG: DIA intermedio (no requiere estudio)",
       "tipo": "Calendario oficial",
-      "hoja": "JULIO"
+      "hoja": "JULIO",
+      "origen": "3D|JULIO|R9C4"
     },
     {
       "fecha": "2026-07-23",
@@ -436,7 +483,8 @@
       "descripcion": "DIA intermedio (ev. formativa. No requiere estudio) 6ºA y 6ºDTecnología: Makey Makey",
       "texto_original": "6°A y B: LENGUAJE: DIA intermedio (ev. formativa. No requiere estudio) 6ºA y 6ºDTecnología: Makey Makey",
       "tipo": "Calendario oficial",
-      "hoja": "JULIO"
+      "hoja": "JULIO",
+      "origen": "6B|JULIO|R9C4"
     },
     {
       "fecha": "2026-07-24",
@@ -445,7 +493,8 @@
       "descripcion": "Pintura abstracta Judy Chicago 6°C Y D: LENGUAJE: DIA intermedio (ev. formativa. No requiere estudio)",
       "texto_original": "6° A y B: ARTE: Pintura abstracta Judy Chicago 6°C Y D: LENGUAJE: DIA intermedio (ev. formativa. No requiere estudio)",
       "tipo": "Calendario oficial",
-      "hoja": "JULIO"
+      "hoja": "JULIO",
+      "origen": "6B|JULIO|R9C5"
     },
     {
       "fecha": "2026-07-27",
@@ -454,7 +503,8 @@
       "descripcion": "Inicio de evaluación de cierre de tema 3.",
       "texto_original": "3°A, B, C y D LENG: Inicio de evaluación de cierre de tema 3.",
       "tipo": "Calendario oficial",
-      "hoja": "JULIO"
+      "hoja": "JULIO",
+      "origen": "3D|JULIO|R11C1"
     },
     {
       "fecha": "2026-07-27",
@@ -463,7 +513,8 @@
       "descripcion": "8:30- 14:30: Jornada de liderazgo (asiste solo la Directiva) 6°B, C y D: LENGUAJE: Inicio evaluación cierre de tema 3",
       "texto_original": "8:30- 14:30: Jornada de liderazgo (asiste solo la Directiva) 6°B, C y D: LENGUAJE: Inicio evaluación cierre de tema 3",
       "tipo": "Calendario oficial",
-      "hoja": "JULIO"
+      "hoja": "JULIO",
+      "origen": "6B|JULIO|R11C1"
     },
     {
       "fecha": "2026-07-28",
@@ -472,7 +523,8 @@
       "descripcion": "Solar System Elements and Earth's Movements 3°C English: Unit 4 Quiz 2",
       "texto_original": "3° B y D Natural Science: Solar System Elements and Earth's Movements 3°C English: Unit 4 Quiz 2",
       "tipo": "Calendario oficial",
-      "hoja": "JULIO"
+      "hoja": "JULIO",
+      "origen": "3D|JULIO|R11C2"
     },
     {
       "fecha": "2026-07-28",
@@ -481,7 +533,8 @@
       "descripcion": "Inicio evaluación cierre de tema 3 6° B, C, D ENGLISH: Fashion show",
       "texto_original": "6°A: LENGUAJE: Inicio evaluación cierre de tema 3 6° B, C, D ENGLISH: Fashion show",
       "tipo": "Calendario oficial",
-      "hoja": "JULIO"
+      "hoja": "JULIO",
+      "origen": "6B|JULIO|R11C2"
     },
     {
       "fecha": "2026-07-29",
@@ -490,7 +543,8 @@
       "descripcion": "Fashion show",
       "texto_original": "6°A, B, C, D ENGLISH: Fashion show",
       "tipo": "Calendario oficial",
-      "hoja": "JULIO"
+      "hoja": "JULIO",
+      "origen": "6B|JULIO|R11C3"
     },
     {
       "fecha": "2026-07-30",
@@ -499,7 +553,8 @@
       "descripcion": "Memory card.",
       "texto_original": "3ºC y 3ºD Tecnología: Memory card.",
       "tipo": "Calendario oficial",
-      "hoja": "JULIO"
+      "hoja": "JULIO",
+      "origen": "3D|JULIO|R11C4"
     },
     {
       "fecha": "2026-07-30",
@@ -508,7 +563,8 @@
       "descripcion": "Fashion show 6ºB: SCIENCE: Project",
       "texto_original": "6°A ENGLISH: Fashion show 6ºB: SCIENCE: Project",
       "tipo": "Calendario oficial",
-      "hoja": "JULIO"
+      "hoja": "JULIO",
+      "origen": "6B|JULIO|R11C4"
     },
     {
       "fecha": "2026-08-03",
@@ -517,7 +573,8 @@
       "descripcion": "Evaluación DIA",
       "texto_original": "6° A, B y C Math: Evaluación DIA",
       "tipo": "Calendario oficial",
-      "hoja": "AGOSTO"
+      "hoja": "AGOSTO",
+      "origen": "6B|AGOSTO|R3C1"
     },
     {
       "fecha": "2026-08-05",
@@ -526,7 +583,8 @@
       "descripcion": "Word Problems Written Assessment Part 1",
       "texto_original": "3° A, C and D Math: Word Problems Written Assessment Part 1",
       "tipo": "Calendario oficial",
-      "hoja": "AGOSTO"
+      "hoja": "AGOSTO",
+      "origen": "3D|AGOSTO|R3C3"
     },
     {
       "fecha": "2026-08-05",
@@ -535,7 +593,8 @@
       "descripcion": "Evaluation",
       "texto_original": "6° B y D: SOCIAL STUDIES: Evaluation",
       "tipo": "Calendario oficial",
-      "hoja": "AGOSTO"
+      "hoja": "AGOSTO",
+      "origen": "6B|AGOSTO|R3C3"
     },
     {
       "fecha": "2026-08-06",
@@ -544,7 +603,8 @@
       "descripcion": "Evaluación Plan Lector 5 \"Superanimales de Chile\" 3° B Math: Word Problems Written Assessment Part 1",
       "texto_original": "3° A y D LENG: Evaluación Plan Lector 5 \"Superanimales de Chile\" 3° B Math: Word Problems Written Assessment Part 1",
       "tipo": "Calendario oficial",
-      "hoja": "AGOSTO"
+      "hoja": "AGOSTO",
+      "origen": "3D|AGOSTO|R3C4"
     },
     {
       "fecha": "2026-08-06",
@@ -553,7 +613,8 @@
       "descripcion": "Prueba escrita Álgebra 6°D Math: Evaluación DIA",
       "texto_original": "6° A, B y C Math: Prueba escrita Álgebra 6°D Math: Evaluación DIA",
       "tipo": "Calendario oficial",
-      "hoja": "AGOSTO"
+      "hoja": "AGOSTO",
+      "origen": "6B|AGOSTO|R3C4"
     },
     {
       "fecha": "2026-08-10",
@@ -562,7 +623,8 @@
       "descripcion": "Prueba Plan Lector 4 \"Socorro\"",
       "texto_original": "6°B, C y D: LENGUAJE: Prueba Plan Lector 4 \"Socorro\"",
       "tipo": "Calendario oficial",
-      "hoja": "AGOSTO"
+      "hoja": "AGOSTO",
+      "origen": "6B|AGOSTO|R5C1"
     },
     {
       "fecha": "2026-08-11",
@@ -571,7 +633,8 @@
       "descripcion": "ART Greek Vase",
       "texto_original": "3°A, 3°B, 3°D. ART Greek Vase",
       "tipo": "Calendario oficial",
-      "hoja": "AGOSTO"
+      "hoja": "AGOSTO",
+      "origen": "3D|AGOSTO|R5C2"
     },
     {
       "fecha": "2026-08-20",
@@ -580,7 +643,8 @@
       "descripcion": "Geography Written Assessment",
       "texto_original": "3°B y D Social Studies: Geography Written Assessment",
       "tipo": "Calendario oficial",
-      "hoja": "AGOSTO"
+      "hoja": "AGOSTO",
+      "origen": "3D|AGOSTO|R7C4"
     },
     {
       "fecha": "2026-08-26",
@@ -589,7 +653,8 @@
       "descripcion": "Diorama 6°A - C ENGLISH: Theater week play presentation",
       "texto_original": "6ºB: SCIENCE: Diorama 6°A - C ENGLISH: Theater week play presentation",
       "tipo": "Calendario oficial",
-      "hoja": "AGOSTO"
+      "hoja": "AGOSTO",
+      "origen": "6B|AGOSTO|R9C3"
     },
     {
       "fecha": "2026-08-27",
@@ -598,7 +663,8 @@
       "descripcion": "ENGLISH 3°B - D: Written test",
       "texto_original": "ENGLISH 3°B - D: Written test",
       "tipo": "Calendario oficial",
-      "hoja": "AGOSTO"
+      "hoja": "AGOSTO",
+      "origen": "3D|AGOSTO|R9C4"
     },
     {
       "fecha": "2026-08-27",
@@ -607,7 +673,8 @@
       "descripcion": "Diorama 6°B ENGLISH: Theater week play presentation",
       "texto_original": "6ºD: SCIENCE: Diorama 6°B ENGLISH: Theater week play presentation",
       "tipo": "Calendario oficial",
-      "hoja": "AGOSTO"
+      "hoja": "AGOSTO",
+      "origen": "6B|AGOSTO|R9C4"
     },
     {
       "fecha": "2026-09-01",
@@ -616,7 +683,8 @@
       "descripcion": "Test Regions of Chile",
       "texto_original": "6° B: SOCIAL: Test Regions of Chile",
       "tipo": "Calendario oficial",
-      "hoja": "SEPTIEMBRE"
+      "hoja": "SEPTIEMBRE",
+      "origen": "6B|SEPTIEMBRE|R3C2"
     },
     {
       "fecha": "2026-09-03",
@@ -625,7 +693,8 @@
       "descripcion": "Evaluación Plan Lector 6 \"Isabel Ossa\" 3°B: Division Quiz 3ºC Art: Mosaic",
       "texto_original": "3°A y D LENG: Evaluación Plan Lector 6 \"Isabel Ossa\" 3°B: Division Quiz 3ºC Art: Mosaic",
       "tipo": "Calendario oficial",
-      "hoja": "SEPTIEMBRE"
+      "hoja": "SEPTIEMBRE",
+      "origen": "3D|SEPTIEMBRE|R3C4"
     },
     {
       "fecha": "2026-09-03",
@@ -634,7 +703,8 @@
       "descripcion": "Evaluación cierre de tema 4 (acumulativa) 6° C: SOCIAL: Test Regions of Chile",
       "texto_original": "6°A y B: LENGUAJE: Evaluación cierre de tema 4 (acumulativa) 6° C: SOCIAL: Test Regions of Chile",
       "tipo": "Calendario oficial",
-      "hoja": "SEPTIEMBRE"
+      "hoja": "SEPTIEMBRE",
+      "origen": "6B|SEPTIEMBRE|R3C4"
     },
     {
       "fecha": "2026-09-07",
@@ -643,7 +713,8 @@
       "descripcion": "Inicio de evaluación de cierre de tema 4.",
       "texto_original": "3°A, B, C y D LENG: Inicio de evaluación de cierre de tema 4.",
       "tipo": "Calendario oficial",
-      "hoja": "SEPTIEMBRE"
+      "hoja": "SEPTIEMBRE",
+      "origen": "3D|SEPTIEMBRE|R5C1"
     },
     {
       "fecha": "2026-09-07",
@@ -652,7 +723,8 @@
       "descripcion": "Evaluación Plan Lector 5 \"Mocha Dick\"",
       "texto_original": "6°B, C y D: LENGUAJE: Evaluación Plan Lector 5 \"Mocha Dick\"",
       "tipo": "Calendario oficial",
-      "hoja": "SEPTIEMBRE"
+      "hoja": "SEPTIEMBRE",
+      "origen": "6B|SEPTIEMBRE|R5C1"
     },
     {
       "fecha": "2026-09-08",
@@ -661,7 +733,8 @@
       "descripcion": "Plants/Climate Zones Project Presentation 3ºA 3ªB 3ªD Art: Mosaic ENGLISH 3°D: Reader classwork delivery",
       "texto_original": "3° B Social Studies/Natural Science: Plants/Climate Zones Project Presentation 3ºA 3ªB 3ªD Art: Mosaic ENGLISH 3°D: Reader classwork delivery",
       "tipo": "Calendario oficial",
-      "hoja": "SEPTIEMBRE"
+      "hoja": "SEPTIEMBRE",
+      "origen": "3D|SEPTIEMBRE|R5C2"
     },
     {
       "fecha": "2026-09-10",
@@ -670,7 +743,8 @@
       "descripcion": "ENGLISH 3°A - B - C : Reader classwork delivery 3ºC y D Tecnología: Juego Chileno 3°D Social Studies/Natural Science: Plants/Climate Zones Project Presentation",
       "texto_original": "ENGLISH 3°A - B - C : Reader classwork delivery 3ºC y D Tecnología: Juego Chileno 3°D Social Studies/Natural Science: Plants/Climate Zones Project Presentation",
       "tipo": "Calendario oficial",
-      "hoja": "SEPTIEMBRE"
+      "hoja": "SEPTIEMBRE",
+      "origen": "3D|SEPTIEMBRE|R5C4"
     },
     {
       "fecha": "2026-09-25",
@@ -679,7 +753,8 @@
       "descripcion": "Mural (croquera + boceto)",
       "texto_original": "6°A y B: ARTE: Mural (croquera + boceto)",
       "tipo": "Calendario oficial",
-      "hoja": "SEPTIEMBRE"
+      "hoja": "SEPTIEMBRE",
+      "origen": "6B|SEPTIEMBRE|R9C5"
     },
     {
       "fecha": "2026-10-01",
@@ -688,7 +763,8 @@
       "descripcion": "Prueba de sumas de fracciones y numeros mixtos.",
       "texto_original": "6° A, B, C y D: MATEMÁTICA: Prueba de sumas de fracciones y numeros mixtos.",
       "tipo": "Calendario oficial",
-      "hoja": "OCTUBRE"
+      "hoja": "OCTUBRE",
+      "origen": "6B|OCTUBRE|R3C4"
     },
     {
       "fecha": "2026-10-06",
@@ -697,7 +773,8 @@
       "descripcion": "Prueba de Comprensión de Lectura 2",
       "texto_original": "6°A y B: LENGUAJE: Prueba de Comprensión de Lectura 2",
       "tipo": "Calendario oficial",
-      "hoja": "OCTUBRE"
+      "hoja": "OCTUBRE",
+      "origen": "6B|OCTUBRE|R5C2"
     },
     {
       "fecha": "2026-10-07",
@@ -706,7 +783,8 @@
       "descripcion": "Multiplication and Division Written Quiz",
       "texto_original": "3°A and D Math: Multiplication and Division Written Quiz",
       "tipo": "Calendario oficial",
-      "hoja": "OCTUBRE"
+      "hoja": "OCTUBRE",
+      "origen": "3D|OCTUBRE|R5C3"
     },
     {
       "fecha": "2026-10-15",
@@ -715,7 +793,8 @@
       "descripcion": "Plan Lector 6: ¿Seguiremos siendo amigos?",
       "texto_original": "3°A y D: LENGUAJE: Plan Lector 6: ¿Seguiremos siendo amigos?",
       "tipo": "Calendario oficial",
-      "hoja": "OCTUBRE"
+      "hoja": "OCTUBRE",
+      "origen": "3D|OCTUBRE|R7C4"
     },
     {
       "fecha": "2026-10-16",
@@ -724,7 +803,8 @@
       "descripcion": "Reader Quiz chapters 1 to 12",
       "texto_original": "6°A, B, C and D: ENGLISH: Reader Quiz chapters 1 to 12",
       "tipo": "Calendario oficial",
-      "hoja": "OCTUBRE"
+      "hoja": "OCTUBRE",
+      "origen": "6B|OCTUBRE|R7C5"
     },
     {
       "fecha": "2026-10-19",
@@ -733,7 +813,8 @@
       "descripcion": "Inicio de producto (Communication Fest)",
       "texto_original": "3°A, B, C y D: LENGUAJE: Inicio de producto (Communication Fest)",
       "tipo": "Calendario oficial",
-      "hoja": "OCTUBRE"
+      "hoja": "OCTUBRE",
+      "origen": "3D|OCTUBRE|R9C1"
     },
     {
       "fecha": "2026-10-19",
@@ -742,7 +823,8 @@
       "descripcion": "Inicio de producto (Communication Fest)",
       "texto_original": "6°B, C y D: LENGUAJE: Inicio de producto (Communication Fest)",
       "tipo": "Calendario oficial",
-      "hoja": "OCTUBRE"
+      "hoja": "OCTUBRE",
+      "origen": "6B|OCTUBRE|R9C1"
     },
     {
       "fecha": "2026-10-21",
@@ -751,7 +833,8 @@
       "descripcion": "Juego de mesa 6°A: LENGUAJE: Inicio de producto (Communication Fest)",
       "texto_original": "6ºB y D TECNOLOGÍA : Juego de mesa 6°A: LENGUAJE: Inicio de producto (Communication Fest)",
       "tipo": "Calendario oficial",
-      "hoja": "OCTUBRE"
+      "hoja": "OCTUBRE",
+      "origen": "6B|OCTUBRE|R9C3"
     },
     {
       "fecha": "2026-10-22",
@@ -760,7 +843,8 @@
       "descripcion": "Market presentation (Comunication Fest)",
       "texto_original": "3°C - D English: Market presentation (Comunication Fest)",
       "tipo": "Calendario oficial",
-      "hoja": "OCTUBRE"
+      "hoja": "OCTUBRE",
+      "origen": "3D|OCTUBRE|R9C4"
     },
     {
       "fecha": "2026-10-28",
@@ -769,7 +853,8 @@
       "descripcion": "SIMCE 13:55- 15:00: 6°B: Presentación juego de mesa 15:30- 16:30: 6°D: Presentación juego de mesa",
       "texto_original": "SIMCE 13:55- 15:00: 6°B: Presentación juego de mesa 15:30- 16:30: 6°D: Presentación juego de mesa",
       "tipo": "Calendario oficial",
-      "hoja": "OCTUBRE"
+      "hoja": "OCTUBRE",
+      "origen": "6B|OCTUBRE|R11C3"
     },
     {
       "fecha": "2026-11-03",
@@ -778,7 +863,8 @@
       "descripcion": "Evaluación DIA de cierre (no requiere estudio)",
       "texto_original": "6° A y B: LENGUAJE: Evaluación DIA de cierre (no requiere estudio)",
       "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE"
+      "hoja": "NOVIEMBRE",
+      "origen": "6B|NOVIEMBRE|R3C2"
     },
     {
       "fecha": "2026-11-05",
@@ -787,7 +873,8 @@
       "descripcion": "Evaluación DIA de cierre (no requiere estudio)",
       "texto_original": "3°A y D: LENGUAJE: Evaluación DIA de cierre (no requiere estudio)",
       "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE"
+      "hoja": "NOVIEMBRE",
+      "origen": "3D|NOVIEMBRE|R3C4"
     },
     {
       "fecha": "2026-11-09",
@@ -796,7 +883,8 @@
       "descripcion": "Inicio de exposiciones (novela a elección)",
       "texto_original": "3°A, B, C y D: LENGUAJE: Inicio de exposiciones (novela a elección)",
       "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE"
+      "hoja": "NOVIEMBRE",
+      "origen": "3D|NOVIEMBRE|R5C1"
     },
     {
       "fecha": "2026-11-09",
@@ -805,7 +893,8 @@
       "descripcion": "Entrega trabajo geometría",
       "texto_original": "6°A, B y C MATEMÁTICAS: Entrega trabajo geometría",
       "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE"
+      "hoja": "NOVIEMBRE",
+      "origen": "6B|NOVIEMBRE|R5C1"
     },
     {
       "fecha": "2026-11-12",
@@ -814,7 +903,8 @@
       "descripcion": "Reader classwork assessment",
       "texto_original": "6°A, B, C and D: ENGLISH: Reader classwork assessment",
       "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE"
+      "hoja": "NOVIEMBRE",
+      "origen": "6B|NOVIEMBRE|R5C4"
     },
     {
       "fecha": "2026-11-13",
@@ -823,7 +913,8 @@
       "descripcion": "Reader classwork assessment",
       "texto_original": "6°A, B, C and D: ENGLISH: Reader classwork assessment",
       "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE"
+      "hoja": "NOVIEMBRE",
+      "origen": "6B|NOVIEMBRE|R5C5"
     },
     {
       "fecha": "2026-11-16",
@@ -832,7 +923,8 @@
       "descripcion": "Inicio de exposiciones (novela a elección)",
       "texto_original": "6°B, C y D: LENGUAJE: Inicio de exposiciones (novela a elección)",
       "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE"
+      "hoja": "NOVIEMBRE",
+      "origen": "6B|NOVIEMBRE|R7C1"
     },
     {
       "fecha": "2026-11-19",
@@ -841,7 +933,8 @@
       "descripcion": "Prueba de Comprensión de Lectura 2",
       "texto_original": "3°A y D: LENGUAJE: Prueba de Comprensión de Lectura 2",
       "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE"
+      "hoja": "NOVIEMBRE",
+      "origen": "3D|NOVIEMBRE|R7C4"
     },
     {
       "fecha": "2026-11-19",
@@ -850,7 +943,8 @@
       "descripcion": "Evaluación DIA de cierre (no requiere estudio)",
       "texto_original": "6°A, B, C y D MATEMÁTICAS: Evaluación DIA de cierre (no requiere estudio)",
       "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE"
+      "hoja": "NOVIEMBRE",
+      "origen": "6B|NOVIEMBRE|R7C4"
     },
     {
       "fecha": "2026-11-23",
@@ -859,7 +953,8 @@
       "descripcion": "Inicio cierre de tema 6",
       "texto_original": "3°A, B, C y D: LENGUAJE: Inicio cierre de tema 6",
       "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE"
+      "hoja": "NOVIEMBRE",
+      "origen": "3D|NOVIEMBRE|R9C1"
     },
     {
       "fecha": "2026-11-26",
@@ -868,7 +963,8 @@
       "descripcion": "Test 6°A: LENGUAJE: Cierre de tema 6",
       "texto_original": "6ºB: SCIENCE: Test 6°A: LENGUAJE: Cierre de tema 6",
       "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE"
+      "hoja": "NOVIEMBRE",
+      "origen": "6B|NOVIEMBRE|R9C4"
     },
     {
       "fecha": "2026-11-30",
@@ -877,7 +973,8 @@
       "descripcion": "Cierre de tema 6",
       "texto_original": "6°B, C y D: LENGUAJE: Cierre de tema 6",
       "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE"
+      "hoja": "NOVIEMBRE",
+      "origen": "6B|NOVIEMBRE|R11C1"
     }
   ]
 }
