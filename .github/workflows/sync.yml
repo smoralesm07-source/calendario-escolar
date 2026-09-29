@@ -35,10 +35,27 @@ jobs:
         run: |
           if git diff --quiet data/evaluaciones.json; then
             echo "Sin cambios en evaluaciones."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/evaluaciones.json
+            git commit -m "Actualizar evaluaciones 3D y 6B"
+            git push
+          fi
+
+      - name: Procesar avisos y recordatorios
+        env:
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          if [ -z "$SUPABASE_ANON_KEY" ]; then
+            echo "SUPABASE_ANON_KEY no configurado: se omite el envío de avisos."
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/evaluaciones.json
-          git commit -m "Actualizar evaluaciones 3D y 6B"
-          git push
+          sleep 3
+          curl --silent --show-error \
+            --request POST \
+            --header "Authorization: Bearer $SUPABASE_ANON_KEY" \
+            --header "apikey: $SUPABASE_ANON_KEY" \
+            --header "Content-Type: application/json" \
+            --data '{}' \
+            https://ldmtlwzqaqmegedktlxr.supabase.co/functions/v1/school-alert-notify
