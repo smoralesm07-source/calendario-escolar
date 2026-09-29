@@ -37,14 +37,52 @@ def pdate(v,year=2026):
             except:pass
     return None
 
+def month_from_sheet(title):
+    t=norm(title)
+    for name,mo in MONTHS.items():
+        if name in t:
+            return mo
+    return None
+
+def day_number(v):
+    if isinstance(v, datetime): return v.day
+    if isinstance(v, date): return v.day
+    if isinstance(v, (int,float)) and int(v)==v and 1 <= int(v) <= 31:
+        return int(v)
+    t=clean(v)
+    if re.fullmatch(r'\d{1,2}',t):
+        d=int(t)
+        if 1 <= d <= 31:return d
+    # admite encabezados como "LUNES 30" o "30 LUNES"
+    m=re.search(r'(?<!\d)([12]?\d|3[01])(?!\d)',t)
+    if m and len(t) <= 25:
+        return int(m.group(1))
+    return None
+
 def near_date(ws,row,col):
+    # 1) fecha completa en la misma fila
     for c in range(1,ws.max_column+1):
         d=pdate(ws.cell(row,c).value)
         if d:return d
+
+    # 2) fecha completa cerca y hacia arriba
     for r in range(row-1,max(0,row-12),-1):
         for c in range(max(1,col-3),min(ws.max_column,col+3)+1):
             d=pdate(ws.cell(r,c).value)
             if d:return d
+
+    # 3) el calendario del colegio usa hojas por mes y encabezados con solo el día.
+    #    Tomamos el día más cercano por encima de la celda del evento y usamos el mes de la hoja.
+    mo=month_from_sheet(ws.title)
+    if mo:
+        for r in range(row-1,max(0,row-4),-1):
+            # primero la misma columna; luego columnas vecinas por posibles celdas combinadas
+            for c in [col, col-1, col+1, col-2, col+2, col-3, col+3]:
+                if c < 1 or c > ws.max_column: continue
+                dn=day_number(ws.cell(r,c).value)
+                if dn:
+                    try:return date(2026,mo,dn)
+                    except ValueError:pass
     return None
 
 def extract(key,src):
