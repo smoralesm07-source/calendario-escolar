@@ -102,6 +102,46 @@ async function handleConfirmFromUrl(){
   }catch(err){ showAlertMessage(err.code==='expired_token'?'El enlace de confirmación venció. Solicita uno nuevo.':'No pudimos confirmar este enlace.','error'); }
 }
 
+function setupPWA(){
+  if('serviceWorker' in navigator){
+    window.addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js').catch(err=>console.warn('Service worker:',err)));
+  }
+
+  const card=document.getElementById('installCard');
+  const button=document.getElementById('installApp');
+  const hint=document.getElementById('installHint');
+  if(!card||!button||!hint)return;
+
+  const standalone=window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
+  if(standalone){card.hidden=true;return;}
+
+  let deferredPrompt=null;
+  const isiOS=/iphone|ipad|ipod/i.test(navigator.userAgent);
+  if(isiOS){
+    card.hidden=false;
+    button.hidden=true;
+    hint.textContent='En Safari toca Compartir y luego “Añadir a pantalla de inicio”.';
+  }
+
+  window.addEventListener('beforeinstallprompt',event=>{
+    event.preventDefault();
+    deferredPrompt=event;
+    card.hidden=false;
+    button.hidden=false;
+    hint.textContent='Agrégala a la pantalla de inicio para entrar con un toque.';
+  });
+
+  button.addEventListener('click',async()=>{
+    if(!deferredPrompt)return;
+    deferredPrompt.prompt();
+    await deferredPrompt.userChoice;
+    deferredPrompt=null;
+    card.hidden=true;
+  });
+
+  window.addEventListener('appinstalled',()=>{card.hidden=true;});
+}
+
 async function init(){
   document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{ document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active')); btn.classList.add('active'); state.course=btn.dataset.course; render(); }));
   document.getElementById('openAlerts').addEventListener('click',openAlerts); document.getElementById('openAlertsInline').addEventListener('click',openAlerts); document.getElementById('closeAlerts').addEventListener('click',()=>document.getElementById('alertsDialog').close());
@@ -135,4 +175,5 @@ async function init(){
   render(); renderAlertState(); await loadAlertStatus(); await handleConfirmFromUrl();
 }
 
+setupPWA();
 init();
