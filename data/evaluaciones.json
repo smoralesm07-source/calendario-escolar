@@ -1,5 +1,5 @@
 {
-  "actualizado_en": "29-09-2026 19:15",
+  "actualizado_en": "29-09-2026 19:49",
   "fuente": "Colegio Andrée English School",
   "cursos": [
     "3°D",
@@ -847,6 +847,16 @@
       "origen": "3D|OCTUBRE|R9C4"
     },
     {
+      "fecha": "2026-10-26",
+      "curso": "6°B",
+      "asignatura": "English",
+      "descripcion": "Scrap book delivery (Communication Fest)",
+      "texto_original": "6°A - B - C - D English: Scrap book delivery (Communication Fest)",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE",
+      "origen": "6B|OCTUBRE|R11C1"
+    },
+    {
       "fecha": "2026-10-28",
       "curso": "6°B",
       "asignatura": "Actividad / evaluación",
@@ -855,6 +865,16 @@
       "tipo": "Calendario oficial",
       "hoja": "OCTUBRE",
       "origen": "6B|OCTUBRE|R11C3"
+    },
+    {
+      "fecha": "2026-10-30",
+      "curso": "6°B",
+      "asignatura": "English",
+      "descripcion": "Unit 8 Quiz",
+      "texto_original": "6°A - B - C - D English: Unit 8 Quiz",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE",
+      "origen": "6B|OCTUBRE|R11C5"
     },
     {
       "fecha": "2026-11-03",
