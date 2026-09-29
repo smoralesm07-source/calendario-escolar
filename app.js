@@ -9,12 +9,19 @@ function parseDate(value){ const d = new Date(`${value}T12:00:00`); return Numbe
 function daysBetween(a,b){ const ms=86400000; const x=new Date(a.getFullYear(),a.getMonth(),a.getDate()); const y=new Date(b.getFullYear(),b.getMonth(),b.getDate()); return Math.round((y-x)/ms); }
 function urgency(days){ if(days===0)return['today','Hoy']; if(days<=2)return['today',`En ${days} día${days===1?'':'s'}`]; if(days<=7)return['soon',`En ${days} días`]; return['later',`En ${days} días`]; }
 function normalizeCourse(v){ return String(v||'').toUpperCase().replaceAll('°','').replace(/\s+/g,''); }
+function belongsToCourse(item, filter){
+  if(filter==='all') return true;
+  const c=normalizeCourse(item.curso);
+  if(filter==='3D') return c==='3D'||c==='GENERAL3';
+  if(filter==='6B') return c==='6B'||c==='GENERAL6';
+  return c===filter;
+}
 
 function inferSubject(item){
   const source=`${item.asignatura||''} ${item.descripcion||''}`.toUpperCase();
   const subjects=['LENGUAJE','LENG','MATEMÁTICA','MATEMATICA','MATH','ENGLISH','SCIENCE','SOCIAL STUDIES','SOCIAL','ARTE','TECNOLOGÍA','TECNOLOGIA'];
   const found=subjects.find(s=>source.includes(s));
-  if(!found) return item.asignatura||'Actividad escolar';
+  if(!found) return item.es_general ? 'Actividad general' : (item.asignatura||'Actividad escolar');
   const map={LENG:'Lenguaje',LENGUAJE:'Lenguaje',MATEMÁTICA:'Matemática',MATEMATICA:'Matemática',MATH:'Math',ENGLISH:'English',SCIENCE:'Science','SOCIAL STUDIES':'Social Studies',SOCIAL:'Social Studies',ARTE:'Arte',TECNOLOGÍA:'Tecnología',TECNOLOGIA:'Tecnología'};
   return map[found]||found;
 }
@@ -22,7 +29,8 @@ function cleanDescription(item){ let text=String(item.descripcion||'').trim(); i
 
 function cardHTML(item,now){
   const diff=daysBetween(now,item._date), [uClass,uLabel]=urgency(diff);
-  return `<article class="eval-card"><div class="date-box"><div class="day">${String(item._date.getDate()).padStart(2,'0')}</div><div class="month">${fmtMonth.format(item._date).replace('.','')}</div></div><div class="eval-main"><div class="eval-top"><h4>${inferSubject(item)}</h4><span class="course-badge">${item.curso}</span></div><p>${cleanDescription(item)}</p><div class="eval-meta"><span class="tag">${fmtDate.format(item._date).replace('.','')}</span><span class="urgency ${uClass}">${uLabel}</span></div></div></article>`;
+  const badge=item.es_general?`General ${item.nivel||''}`:item.curso;
+  return `<article class="eval-card"><div class="date-box"><div class="day">${String(item._date.getDate()).padStart(2,'0')}</div><div class="month">${fmtMonth.format(item._date).replace('.','')}</div></div><div class="eval-main"><div class="eval-top"><h4>${inferSubject(item)}</h4><span class="course-badge">${badge}</span></div><p>${cleanDescription(item)}</p><div class="eval-meta"><span class="tag">${fmtDate.format(item._date).replace('.','')}</span><span class="urgency ${uClass}">${uLabel}</span></div></div></article>`;
 }
 function fillGroup(groupId,listId,items,now){ const group=document.getElementById(groupId), list=document.getElementById(listId); group.hidden=items.length===0; list.innerHTML=items.map(item=>cardHTML(item,now)).join(''); }
 
@@ -31,12 +39,12 @@ function render(){
   const pending=state.data.map(x=>({...x,_date:parseDate(x.fecha)})).filter(x=>x._date&&daysBetween(now,x._date)>=0).sort((a,b)=>a._date-b._date);
   document.getElementById('metricToday').textContent=pending.filter(x=>daysBetween(now,x._date)===0).length;
   document.getElementById('metricWeek').textContent=pending.filter(x=>daysBetween(now,x._date)<=7).length;
-  document.getElementById('metric3D').textContent=pending.filter(x=>normalizeCourse(x.curso)==='3D').length;
-  document.getElementById('metric6B').textContent=pending.filter(x=>normalizeCourse(x.curso)==='6B').length;
+  document.getElementById('metric3D').textContent=pending.filter(x=>belongsToCourse(x,'3D')).length;
+  document.getElementById('metric6B').textContent=pending.filter(x=>belongsToCourse(x,'6B')).length;
   const next=pending[0];
-  if(next){ const d=daysBetween(now,next._date); document.getElementById('nextDay').textContent=String(next._date.getDate()).padStart(2,'0'); document.getElementById('nextMonth').textContent=fmtMonth.format(next._date).replace('.',''); document.getElementById('nextCourse').textContent=next.curso; document.getElementById('nextTitle').textContent=inferSubject(next); document.getElementById('nextDescription').textContent=cleanDescription(next); document.getElementById('nextCountdown').textContent=d===0?'Hoy':`Faltan ${d} día${d===1?'':'s'}`; }
+  if(next){ const d=daysBetween(now,next._date); document.getElementById('nextDay').textContent=String(next._date.getDate()).padStart(2,'0'); document.getElementById('nextMonth').textContent=fmtMonth.format(next._date).replace('.',''); document.getElementById('nextCourse').textContent=next.es_general?`General ${next.nivel||''}`:next.curso; document.getElementById('nextTitle').textContent=inferSubject(next); document.getElementById('nextDescription').textContent=cleanDescription(next); document.getElementById('nextCountdown').textContent=d===0?'Hoy':`Faltan ${d} día${d===1?'':'s'}`; }
   else { document.getElementById('nextDay').textContent='—'; document.getElementById('nextMonth').textContent='—'; document.getElementById('nextCourse').textContent='—'; document.getElementById('nextTitle').textContent='Sin evaluaciones pendientes'; document.getElementById('nextDescription').textContent='Cuando existan compromisos próximos aparecerán aquí.'; document.getElementById('nextCountdown').textContent='—'; }
-  const filtered=pending.filter(x=>state.course==='all'||normalizeCourse(x.curso)===state.course);
+  const filtered=pending.filter(x=>belongsToCourse(x,state.course));
   document.getElementById('resultCount').textContent=`${filtered.length}`;
   fillGroup('todayGroup','todayList',filtered.filter(x=>daysBetween(now,x._date)===0),now);
   fillGroup('weekGroup','weekList',filtered.filter(x=>{const d=daysBetween(now,x._date);return d>=1&&d<=7;}),now);
@@ -69,10 +77,10 @@ function renderAlertState(){
   if(state.alerts.active&&state.alerts.preferences){
     badge.textContent='Activo'; badge.className='status-badge active';
     const p=state.alerts.preferences; const courses=(p.courses||[]).map(x=>x==='3D'?'3°D':'6°B').join(' · '); const days=(p.reminder_days||[]).sort((a,b)=>a-b).join(', ');
-    summary.textContent=`${courses} · recordatorios ${days?days+' día(s) antes':'sin recordatorio'}`;
+    summary.textContent=`${courses} · incluye actividades generales del nivel · recordatorios ${days?days+' día(s) antes':'sin recordatorio'}`;
     save.textContent='Guardar cambios'; unsub.hidden=false; email.disabled=true; fillAlertForm(p);
   } else {
-    badge.textContent='No configurado'; badge.className='status-badge inactive'; summary.textContent='Recibe nuevas actividades, cambios y recordatorios directamente en tu correo.';
+    badge.textContent='No configurado'; badge.className='status-badge inactive'; summary.textContent='Recibe evaluaciones, actividades generales, cambios y recordatorios directamente en tu correo.';
     save.textContent='Enviar confirmación'; unsub.hidden=true; email.disabled=false;
   }
 }
