@@ -1,0 +1,19 @@
+{
+  "name": "Colegio",
+  "short_name": "Colegio",
+  "description": "Calendario escolar de 3°D y 6°B con actividades generales y avisos por correo.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4f7fa",
+  "theme_color": "#18324a",
+  "icons": [
+    {
+      "src": "icons/colegio.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
