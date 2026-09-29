@@ -1,9 +1,786 @@
 {
-  "actualizado_en": "29-09-2026 18:50",
+  "actualizado_en": "29-09-2026 18:52",
   "fuente": "Colegio Andrée English School",
   "cursos": [
     "3°D",
     "6°B"
   ],
-  "evaluaciones": []
+  "evaluaciones": [
+    {
+      "fecha": "2026-03-16",
+      "curso": "3°D",
+      "asignatura": "3°C LENG: Evaluación DIA",
+      "descripcion": "3°C LENG: Evaluación DIA · 3°A: Jornada de Orientación · 3°B: Jornada de Orientación 3°A y D LENG: Evaluación DIA",
+      "tipo": "Calendario oficial",
+      "hoja": "MARZO"
+    },
+    {
+      "fecha": "2026-03-16",
+      "curso": "6°B",
+      "asignatura": "6°A: LENGUAJE: Evaluación DIA",
+      "descripcion": "6°A: LENGUAJE: Evaluación DIA · 6°B and D: SOCIAL STUDIES: classwork \"Causes and stages of the Independence\" 6°D: LENGUAJE: Evaluación DIA · 6°A and C: SOCIAL STUDIES: classwork \"Causes and stages of the Independence\"",
+      "tipo": "Calendario oficial",
+      "hoja": "MARZO"
+    },
+    {
+      "fecha": "2026-03-18",
+      "curso": "6°B",
+      "asignatura": "6°B y C: LENGUAJE: Evaluación DIA",
+      "descripcion": "6°B y C: LENGUAJE: Evaluación DIA · 6°A: LENGUAJE: Evaluación DIA · 6°A and C: SOCIAL STUDIES: classwork \"Causes and stages of the Independence\"",
+      "tipo": "Calendario oficial",
+      "hoja": "MARZO"
+    },
+    {
+      "fecha": "2026-03-25",
+      "curso": "6°B",
+      "asignatura": "Evaluación",
+      "descripcion": "6° A y C: ARTE Y TECNOLOGÍA: Lámina de diseño en CANVA",
+      "tipo": "Calendario oficial",
+      "hoja": "MARZO"
+    },
+    {
+      "fecha": "2026-03-26",
+      "curso": "3°D",
+      "asignatura": "3°C: Jornada de Orientación)",
+      "descripcion": "3°C: Jornada de Orientación) · 3°B LENG: Plan lector 1 \"El secuestro de la bibliotecaria\"",
+      "tipo": "Calendario oficial",
+      "hoja": "MARZO"
+    },
+    {
+      "fecha": "2026-03-31",
+      "curso": "6°B",
+      "asignatura": "Evaluación",
+      "descripcion": "8:00- 9:40: Reflexión de Semana Santa 6°C y D LENGUAJE: Plan lector 1 \"Asesinato en el Canadian Express\"",
+      "tipo": "Calendario oficial",
+      "hoja": "MARZO"
+    },
+    {
+      "fecha": "2026-04-06",
+      "curso": "6°B",
+      "asignatura": "6°A, B y C: MATEMÁTICA: Evaluación escrita",
+      "descripcion": "6°B and D: SOCIAL STUDIES: classwork \"Organization and consolidation of the Republic) 6°D: MATEMÁTICA: Evaluación 6° A LENGUAJE: Inicio trabajo de cierre de tema 1 (Collage de identidad) · 6°A: SOCIAL STUDIES: classwork \"Organization and consolidation of the Republic\" · 6°A, B y C: MATEMÁTICA: Evaluación escrita · 6°C: SOCIAL STUDIES: classwork \"Organization and consolidation of the Republic\"",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-07",
+      "curso": "6°B",
+      "asignatura": "6°A, B y C: MATEMÁTICA: Evaluación escrita",
+      "descripcion": "6° B, C y D LENG: Inicio trabajo de cierre de tema 1 (Collage de identidad) · 6°A: SOCIAL STUDIES: classwork \"Organization and consolidation of the Republic\" · 6°A, B y C: MATEMÁTICA: Evaluación escrita · 6°C: SOCIAL STUDIES: classwork \"Organization and consolidation of the Republic\"",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-08",
+      "curso": "3°D",
+      "asignatura": "3°A, 3°B, 3°C Evaluación ARTE Natural Disasters",
+      "descripcion": "3°A, 3°B, 3°C Evaluación ARTE Natural Disasters · 3° B y D Social Studies: Rights and Duties Assessment 3° C Maths: Numbers Assessment (Stations) · 3° A, B y D Maths: Numbers Assessment (Stations)",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-09",
+      "curso": "3°D",
+      "asignatura": "3°A, 3°B, 3°C Evaluación ARTE Natural Disasters",
+      "descripcion": "3°A, 3°B, 3°C Evaluación ARTE Natural Disasters · 3°D Evaluación ARTE Natural Disasters 3° A y C Social Studies: Rights and Duties Assessment · 3° A, B y D Maths: Numbers Assessment (Stations)",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-09",
+      "curso": "6°B",
+      "asignatura": "Evaluación",
+      "descripcion": "6° B, C y D LENG: Inicio trabajo de cierre de tema 1 (Collage de identidad) · 6°B and D: SOCIAL STUDIES: classwork \"Organization and consolidation of the Republic) 6°D: MATEMÁTICA: Evaluación 6° A LENGUAJE: Inicio trabajo de cierre de tema 1 (Collage de identidad) · 6°A: SOCIAL STUDIES: classwork \"Organization and consolidation of the Republic\" · 6°C: SOCIAL STUDIES: classwork \"Organization and consolidation of the Republic\"",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-10",
+      "curso": "3°D",
+      "asignatura": "3°A, 3°B, 3°C Evaluación ARTE Natural Disasters",
+      "descripcion": "3°A, 3°B, 3°C Evaluación ARTE Natural Disasters · 3°D Evaluación ARTE Natural Disasters 3° A y C Social Studies: Rights and Duties Assessment · 3° B y D Social Studies: Rights and Duties Assessment 3° C Maths: Numbers Assessment (Stations)",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-13",
+      "curso": "3°D",
+      "asignatura": "3° A, B, C, D ENGLISH: Careers fair",
+      "descripcion": "3° A, B, C, D ENGLISH: Careers fair",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-13",
+      "curso": "6°B",
+      "asignatura": "6ºB: SCIENCE: Test",
+      "descripcion": "6°A, B, C, D ENGLISH: Storytelling (Food traditions) · 6°A, B, C, D ENGLISH: Storytelling (Food traditions) · 6ºB: SCIENCE: Test · 6ºA, C and D: SCIENCE: Test",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-14",
+      "curso": "6°B",
+      "asignatura": "6ºB: SCIENCE: Test",
+      "descripcion": "6°A, B, C, D ENGLISH: Storytelling (Food traditions) (Entrega) · 6ºB: SCIENCE: Test · 6ºA, C and D: SCIENCE: Test",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-15",
+      "curso": "6°B",
+      "asignatura": "6ºB: SCIENCE: Test",
+      "descripcion": "6°A, B, C, D ENGLISH: Storytelling (Food traditions) (Entrega) · 6ºB: SCIENCE: Test · 6ºA, C and D: SCIENCE: Test",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-16",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3°A, B, C Y D LENG: Inicio de evaluación tema transdisciplinar 1",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-16",
+      "curso": "6°B",
+      "asignatura": "6ºA, C and D: SCIENCE: Test",
+      "descripcion": "6°A, B, C, D ENGLISH: Storytelling (Food traditions) (Entrega) · 6°A, B, C, D ENGLISH: Storytelling (Food traditions) · 6°A, B, C, D ENGLISH: Storytelling (Food traditions) · 6ºA, C and D: SCIENCE: Test",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-21",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3B TECNO: Computación 3°C LENG: Evaluación Plan lector 2 \"La calla más aburrida del mundo\" · 3C y 3D TECNO: Computación 3°A LENG: Evaluación Plan lector 2 \"La calle más aburrida del mundo\" · 3A TECNO: Computación 3° B y D LENG: Evaluación Plan lector 2 \"La calle más aburrida del mundo\" 3° A y C Natural Science: Weekly School Menú Presentation",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-23",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3° B y D: Natural Science: Weekly School Menú Presentation · 3B TECNO: Computación 3°C LENG: Evaluación Plan lector 2 \"La calla más aburrida del mundo\" · 3A TECNO: Computación 3° B y D LENG: Evaluación Plan lector 2 \"La calle más aburrida del mundo\" 3° A y C Natural Science: Weekly School Menú Presentation",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-23",
+      "curso": "6°B",
+      "asignatura": "6°A, B, C, D: Percy Jackson (Interview to a god",
+      "descripcion": "6°A, B, C, D: Percy Jackson (Interview to a god",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-04-24",
+      "curso": "6°B",
+      "asignatura": "6°A, B, C, D: Percy Jackson (Interview to a god)",
+      "descripcion": "6°A, B, C, D: Percy Jackson (Interview to a god)",
+      "tipo": "Calendario oficial",
+      "hoja": "ABRIL"
+    },
+    {
+      "fecha": "2026-05-04",
+      "curso": "6°B",
+      "asignatura": "Evaluación",
+      "descripcion": "6°C: ARTE y Tecnologia: Evaluación arte de escultura 6ºA and C: SCIENCE: Guía acumulativa Nº1 6° B y D: SOCIAL STUDIES; start classwork \" Territorial changes and Social Cuestion\" · 6°B and 6°D: SOCIAL STUDIES: finish classwork \" Territorial changes and Social Cuestion\" 6°A SOCIAL STUDIES: start classwork \" Territorial changes and Social Cuestion\" 6°D: ARTE y Tecnologia: Evaluación escultura · 6ºB and D: SCIENCE: Guía acumulativa Nº1 6°C SOCIAL STUDIES: start classwork \" Territorial chanfes and Social Cuestion\" · 6°A and C: SOCIAL STUDIES: finish classwork \" Territorial changes and Social Cuestion\" 6°A y B: ARTE y Tecnologia Evaluación escultura",
+      "tipo": "Calendario oficial",
+      "hoja": "MAYO"
+    },
+    {
+      "fecha": "2026-05-05",
+      "curso": "6°B",
+      "asignatura": "Evaluación",
+      "descripcion": "6°B, C y D: LENGUAJE: Inicio trabajo Plan lector 2 \"Harry Potter y la cámara secreta o el prisionero de Azkabán\" · 6°B and 6°D: SOCIAL STUDIES: finish classwork \" Territorial changes and Social Cuestion\" 6°A SOCIAL STUDIES: start classwork \" Territorial changes and Social Cuestion\" 6°D: ARTE y Tecnologia: Evaluación escultura · 6ºB and D: SCIENCE: Guía acumulativa Nº1 6°C SOCIAL STUDIES: start classwork \" Territorial chanfes and Social Cuestion\" · 6°A and C: SOCIAL STUDIES: finish classwork \" Territorial changes and Social Cuestion\" 6°A y B: ARTE y Tecnologia Evaluación escultura",
+      "tipo": "Calendario oficial",
+      "hoja": "MAYO"
+    },
+    {
+      "fecha": "2026-05-06",
+      "curso": "6°B",
+      "asignatura": "Evaluación",
+      "descripcion": "6°B, C y D: LENGUAJE: Inicio trabajo Plan lector 2 \"Harry Potter y la cámara secreta o el prisionero de Azkabán\" · 6°C: ARTE y Tecnologia: Evaluación arte de escultura 6ºA and C: SCIENCE: Guía acumulativa Nº1 6° B y D: SOCIAL STUDIES; start classwork \" Territorial changes and Social Cuestion\" · 6ºB and D: SCIENCE: Guía acumulativa Nº1 6°C SOCIAL STUDIES: start classwork \" Territorial chanfes and Social Cuestion\" · 6°A and C: SOCIAL STUDIES: finish classwork \" Territorial changes and Social Cuestion\" 6°A y B: ARTE y Tecnologia Evaluación escultura",
+      "tipo": "Calendario oficial",
+      "hoja": "MAYO"
+    },
+    {
+      "fecha": "2026-05-07",
+      "curso": "6°B",
+      "asignatura": "Evaluación",
+      "descripcion": "6°B, C y D: LENGUAJE: Inicio trabajo Plan lector 2 \"Harry Potter y la cámara secreta o el prisionero de Azkabán\" · 6°C: ARTE y Tecnologia: Evaluación arte de escultura 6ºA and C: SCIENCE: Guía acumulativa Nº1 6° B y D: SOCIAL STUDIES; start classwork \" Territorial changes and Social Cuestion\" · 6°B and 6°D: SOCIAL STUDIES: finish classwork \" Territorial changes and Social Cuestion\" 6°A SOCIAL STUDIES: start classwork \" Territorial changes and Social Cuestion\" 6°D: ARTE y Tecnologia: Evaluación escultura · 6°A and C: SOCIAL STUDIES: finish classwork \" Territorial changes and Social Cuestion\" 6°A y B: ARTE y Tecnologia Evaluación escultura",
+      "tipo": "Calendario oficial",
+      "hoja": "MAYO"
+    },
+    {
+      "fecha": "2026-05-08",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3° A, B, C and D Math Assessment: Patterns, Addition and Subtractions.",
+      "tipo": "Calendario oficial",
+      "hoja": "MAYO"
+    },
+    {
+      "fecha": "2026-05-25",
+      "curso": "6°B",
+      "asignatura": "6ºA and D: SCIENCE: Guía acumulativa Nº2",
+      "descripcion": "6°B: LENGUAJE: Evaluación acumulativa de cierre (tema 2). · 6°C y D: LENGUAJE: Evaluación acumulativa de cierre (tema 2). · 6ºB: SCIENCE: Guía acumulativa Nº2 6°A: LENGUAJE: Evaluación acumulativa de cierre (tema 2). · 6ºA and D: SCIENCE: Guía acumulativa Nº2",
+      "tipo": "Calendario oficial",
+      "hoja": "MAYO"
+    },
+    {
+      "fecha": "2026-05-26",
+      "curso": "3°D",
+      "asignatura": "3°C ARTE Grece sgrafitto",
+      "descripcion": "3°C ARTE Grece sgrafitto · 3°A y D LENG: Evaluación Plan lector 3 \"Roald Dahl\" 3°C Natural Science: Sounds Lab · 3° B: Evaluación Plan lector 3 \"Roald Dahl\" 3° A Natural Science: Sounds Lab",
+      "tipo": "Calendario oficial",
+      "hoja": "MAYO"
+    },
+    {
+      "fecha": "2026-05-26",
+      "curso": "6°B",
+      "asignatura": "6°A, B, C, D ENGLISH: Inventor's pitch",
+      "descripcion": "6°A, B, C, D ENGLISH: Inventor's pitch · 6°C y D: LENGUAJE: Evaluación acumulativa de cierre (tema 2). · 6ºB: SCIENCE: Guía acumulativa Nº2 6°A: LENGUAJE: Evaluación acumulativa de cierre (tema 2). · 6ºA and D: SCIENCE: Guía acumulativa Nº2",
+      "tipo": "Calendario oficial",
+      "hoja": "MAYO"
+    },
+    {
+      "fecha": "2026-05-28",
+      "curso": "3°D",
+      "asignatura": "3°C ARTE Grece sgrafitto",
+      "descripcion": "3°C LENG: Evaluación Plan lector 3 \"Roald Dahl\" 3°A 3°B Y 3°D ARTE Grece sgrafitto 3°B y D Natural Science: Sounds Lab · 3°C ARTE Grece sgrafitto · 3° B: Evaluación Plan lector 3 \"Roald Dahl\" 3° A Natural Science: Sounds Lab",
+      "tipo": "Calendario oficial",
+      "hoja": "MAYO"
+    },
+    {
+      "fecha": "2026-05-28",
+      "curso": "6°B",
+      "asignatura": "6°A, B, C, D ENGLISH: Inventor's pitch",
+      "descripcion": "6°A, B, C, D ENGLISH: Inventor's pitch · 6°B: LENGUAJE: Evaluación acumulativa de cierre (tema 2). · 6°C y D: LENGUAJE: Evaluación acumulativa de cierre (tema 2). · 6ºA and D: SCIENCE: Guía acumulativa Nº2",
+      "tipo": "Calendario oficial",
+      "hoja": "MAYO"
+    },
+    {
+      "fecha": "2026-06-01",
+      "curso": "3°D",
+      "asignatura": "3ºB Tecnología: Secret Code",
+      "descripcion": "3ºB Tecnología: Secret Code · 3° A, B, C y D Social Studies/English: Magazine submission 3ºc y 3ºD Tecnología: Secret Code · 3ºA Tecnología: Secret Code 3°A, B C and D Math: Problem Solving Quiz",
+      "tipo": "Calendario oficial",
+      "hoja": "JUNIO"
+    },
+    {
+      "fecha": "2026-06-01",
+      "curso": "6°B",
+      "asignatura": "6ºC : SCIENCE: Guía acumulativa Nº2",
+      "descripcion": "6ºC : SCIENCE: Guía acumulativa Nº2 · 6°A, B, C, D: ENGLISH Percy Jackson Quiz 1",
+      "tipo": "Calendario oficial",
+      "hoja": "JUNIO"
+    },
+    {
+      "fecha": "2026-06-04",
+      "curso": "3°D",
+      "asignatura": "3ºB Tecnología: Secret Code",
+      "descripcion": "3°A, B, C y D LENG: Inicio de evaluación de cierre de tema 2 · 3ºB Tecnología: Secret Code · 3ºA Tecnología: Secret Code 3°A, B C and D Math: Problem Solving Quiz",
+      "tipo": "Calendario oficial",
+      "hoja": "JUNIO"
+    },
+    {
+      "fecha": "2026-06-05",
+      "curso": "6°B",
+      "asignatura": "6ºC : SCIENCE: Guía acumulativa Nº2",
+      "descripcion": "6° A, B, C y D: MATEMÁTICA: Prueba escrita de multiplicación y división de decimales y problemas · 6ºC : SCIENCE: Guía acumulativa Nº2",
+      "tipo": "Calendario oficial",
+      "hoja": "JUNIO"
+    },
+    {
+      "fecha": "2026-06-11",
+      "curso": "6°B",
+      "asignatura": "Evaluación",
+      "descripcion": "6° D: MATEMÁTICA: Exposición y análisis de gráficos 6°A y B: LENGUAJE: Evaluación Plan Lector 3 \"Max Urdemales, abogado sobrenatural\" · 6° A y C: MATEMÁTICA: Exposición y análisis de gráficos · 6°C y D: LENGUAJE: Evaluación Plan Lector 3 \"Max Urdemales, abogado sobrenatural\"",
+      "tipo": "Calendario oficial",
+      "hoja": "JUNIO"
+    },
+    {
+      "fecha": "2026-06-17",
+      "curso": "6°B",
+      "asignatura": "11:30: SCIENCE: Comprehensive test",
+      "descripcion": "11:30: SCIENCE: Comprehensive test · 6°C y D: LENGUAJE: Prueba de Comprensión de Lectura (PCL 1)",
+      "tipo": "Calendario oficial",
+      "hoja": "JUNIO"
+    },
+    {
+      "fecha": "2026-06-18",
+      "curso": "3°D",
+      "asignatura": "3°C LENG: Prueba de Unidad",
+      "descripcion": "3°C LENG: Prueba de Unidad · 3°B LENG: Prueba de Unidad",
+      "tipo": "Calendario oficial",
+      "hoja": "JUNIO"
+    },
+    {
+      "fecha": "2026-06-22",
+      "curso": "3°D",
+      "asignatura": "3°A-B-C-D English: Unit 4 Quiz 1",
+      "descripcion": "3°B LENG: Evaluación Plan Lector 4 \"La cabaña en el árbol\" · 3°A-B-C-D English: Unit 4 Quiz 1 · 3°A, B, C and D Math: Multiplication Concept Presentation",
+      "tipo": "Calendario oficial",
+      "hoja": "JUNIO"
+    },
+    {
+      "fecha": "2026-06-22",
+      "curso": "6°B",
+      "asignatura": "6°C y D: TECNOLOGÍA: Makey Makey",
+      "descripcion": "6°A y B: LENGUAJE: Prueba de Comprensión de Lectura (PCL 1) · 6°C y D: TECNOLOGÍA: Makey Makey · Cierre académico 1° semestre",
+      "tipo": "Calendario oficial",
+      "hoja": "JUNIO"
+    },
+    {
+      "fecha": "2026-06-23",
+      "curso": "6°B",
+      "asignatura": "6°C y D: TECNOLOGÍA: Makey Makey",
+      "descripcion": "9:55: SOCIAL: Comprehensive test 6°A y B: TECNOLOGÍA: Makey Makey · 6°C y D: TECNOLOGÍA: Makey Makey · Cierre académico 1° semestre",
+      "tipo": "Calendario oficial",
+      "hoja": "JUNIO"
+    },
+    {
+      "fecha": "2026-06-24",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3°A, C y D LENG: Evaluación Plan Lector 4 \"La cabaña en el árbol\" · 3°B LENG: Evaluación Plan Lector 4 \"La cabaña en el árbol\" · 3°A, B, C and D Math: Multiplication Concept Presentation",
+      "tipo": "Calendario oficial",
+      "hoja": "JUNIO"
+    },
+    {
+      "fecha": "2026-06-26",
+      "curso": "3°D",
+      "asignatura": "3°A-B-C-D English: Unit 4 Quiz 1",
+      "descripcion": "3°A, C y D LENG: Evaluación Plan Lector 4 \"La cabaña en el árbol\" · 3°B LENG: Evaluación Plan Lector 4 \"La cabaña en el árbol\" · 3°A-B-C-D English: Unit 4 Quiz 1",
+      "tipo": "Calendario oficial",
+      "hoja": "JUNIO"
+    },
+    {
+      "fecha": "2026-07-02",
+      "curso": "6°B",
+      "asignatura": "Evaluación",
+      "descripcion": "5°- 8°: 8:20- 9:20: Acción de Gracias 6° A, C and D: ENGLISH: Percy Jackson Quiz 2",
+      "tipo": "Calendario oficial",
+      "hoja": "JULIO"
+    },
+    {
+      "fecha": "2026-07-22",
+      "curso": "6°B",
+      "asignatura": "6°C: ARTE: Pintura abstracta Judy Chicago",
+      "descripcion": "6°C: ARTE: Pintura abstracta Judy Chicago · 6°A y B: LENGUAJE: DIA intermedio (ev. formativa. No requiere estudio) 6ºA y 6ºDTecnología: Makey Makey · 6° A y B: ARTE: Pintura abstracta Judy Chicago 6°C Y D: LENGUAJE: DIA intermedio (ev. formativa. No requiere estudio)",
+      "tipo": "Calendario oficial",
+      "hoja": "JULIO"
+    },
+    {
+      "fecha": "2026-07-23",
+      "curso": "3°D",
+      "asignatura": "3°C LENG: DIA intermedio (no requiere estudio)",
+      "descripcion": "3°C LENG: DIA intermedio (no requiere estudio) · 3°B LENG: DIA intermedio (no requiere estudio)",
+      "tipo": "Calendario oficial",
+      "hoja": "JULIO"
+    },
+    {
+      "fecha": "2026-07-23",
+      "curso": "6°B",
+      "asignatura": "6°C: ARTE: Pintura abstracta Judy Chicago",
+      "descripcion": "6°C: ARTE: Pintura abstracta Judy Chicago · 6°D: ARTE: Pintura abstracta Judy Chicago 6ºB y 6ºC Tecnología: Makey Makey · 6° A y B: ARTE: Pintura abstracta Judy Chicago 6°C Y D: LENGUAJE: DIA intermedio (ev. formativa. No requiere estudio)",
+      "tipo": "Calendario oficial",
+      "hoja": "JULIO"
+    },
+    {
+      "fecha": "2026-07-24",
+      "curso": "6°B",
+      "asignatura": "6°C: ARTE: Pintura abstracta Judy Chicago",
+      "descripcion": "6°C: ARTE: Pintura abstracta Judy Chicago · 6°D: ARTE: Pintura abstracta Judy Chicago 6ºB y 6ºC Tecnología: Makey Makey · 6°A y B: LENGUAJE: DIA intermedio (ev. formativa. No requiere estudio) 6ºA y 6ºDTecnología: Makey Makey",
+      "tipo": "Calendario oficial",
+      "hoja": "JULIO"
+    },
+    {
+      "fecha": "2026-07-27",
+      "curso": "3°D",
+      "asignatura": "3ºC y 3ºD Tecnología: Memory card.",
+      "descripcion": "3° B y D Natural Science: Solar System Elements and Earth's Movements 3°C English: Unit 4 Quiz 2 · 3ºB Tecnología: Memory card. 3°A-B-D English: Unit 4 Quiz 2 · 3ºC y 3ºD Tecnología: Memory card. · 3° A y C Natural Science: Solar System Elements and Earth's Movements 3ºA Tecnología: Memory card.",
+      "tipo": "Calendario oficial",
+      "hoja": "JULIO"
+    },
+    {
+      "fecha": "2026-07-27",
+      "curso": "6°B",
+      "asignatura": "6°A, B, C, D ENGLISH: Fashion show",
+      "descripcion": "6°A: LENGUAJE: Inicio evaluación cierre de tema 3 6° B, C, D ENGLISH: Fashion show · 6°A, B, C, D ENGLISH: Fashion show · 6°A ENGLISH: Fashion show 6ºB: SCIENCE: Project · 6ºA, C and D: SCIENCE: Project",
+      "tipo": "Calendario oficial",
+      "hoja": "JULIO"
+    },
+    {
+      "fecha": "2026-07-28",
+      "curso": "3°D",
+      "asignatura": "3ºC y 3ºD Tecnología: Memory card.",
+      "descripcion": "3°A, B, C y D LENG: Inicio de evaluación de cierre de tema 3. · 3ºB Tecnología: Memory card. 3°A-B-D English: Unit 4 Quiz 2 · 3ºC y 3ºD Tecnología: Memory card. · 3° A y C Natural Science: Solar System Elements and Earth's Movements 3ºA Tecnología: Memory card.",
+      "tipo": "Calendario oficial",
+      "hoja": "JULIO"
+    },
+    {
+      "fecha": "2026-07-28",
+      "curso": "6°B",
+      "asignatura": "6°A, B, C, D ENGLISH: Fashion show",
+      "descripcion": "8:30- 14:30: Jornada de liderazgo (asiste solo la Directiva) 6°B, C y D: LENGUAJE: Inicio evaluación cierre de tema 3 · 6°A, B, C, D ENGLISH: Fashion show · 6°A ENGLISH: Fashion show 6ºB: SCIENCE: Project · 6ºA, C and D: SCIENCE: Project",
+      "tipo": "Calendario oficial",
+      "hoja": "JULIO"
+    },
+    {
+      "fecha": "2026-07-29",
+      "curso": "6°B",
+      "asignatura": "6°A ENGLISH: Fashion show 6ºB: SCIENCE: Project",
+      "descripcion": "8:30- 14:30: Jornada de liderazgo (asiste solo la Directiva) 6°B, C y D: LENGUAJE: Inicio evaluación cierre de tema 3 · 6°A: LENGUAJE: Inicio evaluación cierre de tema 3 6° B, C, D ENGLISH: Fashion show · 6°A ENGLISH: Fashion show 6ºB: SCIENCE: Project · 6ºA, C and D: SCIENCE: Project",
+      "tipo": "Calendario oficial",
+      "hoja": "JULIO"
+    },
+    {
+      "fecha": "2026-07-30",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3°A, B, C y D LENG: Inicio de evaluación de cierre de tema 3. · 3° B y D Natural Science: Solar System Elements and Earth's Movements 3°C English: Unit 4 Quiz 2 · 3ºB Tecnología: Memory card. 3°A-B-D English: Unit 4 Quiz 2 · 3° A y C Natural Science: Solar System Elements and Earth's Movements 3ºA Tecnología: Memory card.",
+      "tipo": "Calendario oficial",
+      "hoja": "JULIO"
+    },
+    {
+      "fecha": "2026-07-30",
+      "curso": "6°B",
+      "asignatura": "6°A, B, C, D ENGLISH: Fashion show",
+      "descripcion": "8:30- 14:30: Jornada de liderazgo (asiste solo la Directiva) 6°B, C y D: LENGUAJE: Inicio evaluación cierre de tema 3 · 6°A: LENGUAJE: Inicio evaluación cierre de tema 3 6° B, C, D ENGLISH: Fashion show · 6°A, B, C, D ENGLISH: Fashion show · 6ºA, C and D: SCIENCE: Project",
+      "tipo": "Calendario oficial",
+      "hoja": "JULIO"
+    },
+    {
+      "fecha": "2026-08-03",
+      "curso": "6°B",
+      "asignatura": "6° D Math: Prueba escrita Álgebra",
+      "descripcion": "6° D Math: Prueba escrita Álgebra · 6° B y D: SOCIAL STUDIES: Evaluation · 6° A, B y C Math: Prueba escrita Álgebra 6°D Math: Evaluación DIA · 6° A y C: SOCIAL STUDIES: Evaluation",
+      "tipo": "Calendario oficial",
+      "hoja": "AGOSTO"
+    },
+    {
+      "fecha": "2026-08-05",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3°C LENG: Evaluación Plan Lector 5 \"Superanimales de Chile\" · 3° A y D LENG: Evaluación Plan Lector 5 \"Superanimales de Chile\" 3° B Math: Word Problems Written Assessment Part 1 · 3°B LENG: Evaluación Plan Lector 5 \"Superanimales de Chile\" 3° A, C and D Math: Word Problems Written Assessment Part 2",
+      "tipo": "Calendario oficial",
+      "hoja": "AGOSTO"
+    },
+    {
+      "fecha": "2026-08-05",
+      "curso": "6°B",
+      "asignatura": "6° A, B y C Math: Evaluación DIA",
+      "descripcion": "6° A, B y C Math: Evaluación DIA · 6° D Math: Prueba escrita Álgebra · 6° A, B y C Math: Prueba escrita Álgebra 6°D Math: Evaluación DIA · 6° A y C: SOCIAL STUDIES: Evaluation",
+      "tipo": "Calendario oficial",
+      "hoja": "AGOSTO"
+    },
+    {
+      "fecha": "2026-08-06",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3°C LENG: Evaluación Plan Lector 5 \"Superanimales de Chile\" · 3° A, C and D Math: Word Problems Written Assessment Part 1 · 3°B LENG: Evaluación Plan Lector 5 \"Superanimales de Chile\" 3° A, C and D Math: Word Problems Written Assessment Part 2",
+      "tipo": "Calendario oficial",
+      "hoja": "AGOSTO"
+    },
+    {
+      "fecha": "2026-08-06",
+      "curso": "6°B",
+      "asignatura": "6° A, B y C Math: Evaluación DIA",
+      "descripcion": "6° A, B y C Math: Evaluación DIA · 6° D Math: Prueba escrita Álgebra · 6° B y D: SOCIAL STUDIES: Evaluation · 6° A y C: SOCIAL STUDIES: Evaluation",
+      "tipo": "Calendario oficial",
+      "hoja": "AGOSTO"
+    },
+    {
+      "fecha": "2026-08-10",
+      "curso": "6°B",
+      "asignatura": "6°A: LENGUAJE: Prueba Plan Lector 4 \"Socorro\"",
+      "descripcion": "6°A: LENGUAJE: Prueba Plan Lector 4 \"Socorro\" · MATH DAY (8:20 - 11:15) · Taller líderes de inclusión (asisten 5 estudiantes por curso)",
+      "tipo": "Calendario oficial",
+      "hoja": "AGOSTO"
+    },
+    {
+      "fecha": "2026-08-11",
+      "curso": "3°D",
+      "asignatura": "3° B Math: Word Problems Written Assessment Part 2",
+      "descripcion": "3° B Math: Word Problems Written Assessment Part 2 · 3°C ART Greek Vase · MATH DAY (8:20 - 11:15)",
+      "tipo": "Calendario oficial",
+      "hoja": "AGOSTO"
+    },
+    {
+      "fecha": "2026-08-20",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3°A y C Social Studies: Geography Written Assessment",
+      "tipo": "Calendario oficial",
+      "hoja": "AGOSTO"
+    },
+    {
+      "fecha": "2026-08-26",
+      "curso": "6°B",
+      "asignatura": "6°D ENGLISH: Theater week play presentation",
+      "descripcion": "11:30- 12:50: Ensayo bailes folclóricos 6ºA and C: SCIENCE: Diorama · 6ºD: SCIENCE: Diorama 6°B ENGLISH: Theater week play presentation · 6°D ENGLISH: Theater week play presentation",
+      "tipo": "Calendario oficial",
+      "hoja": "AGOSTO"
+    },
+    {
+      "fecha": "2026-08-27",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "09:55-11:15 hrs. Ensayo bailes Ed. Física ENGLISH 3°A - C: Written test",
+      "tipo": "Calendario oficial",
+      "hoja": "AGOSTO"
+    },
+    {
+      "fecha": "2026-08-27",
+      "curso": "6°B",
+      "asignatura": "6°D ENGLISH: Theater week play presentation",
+      "descripcion": "11:30- 12:50: Ensayo bailes folclóricos 6ºA and C: SCIENCE: Diorama · 6ºB: SCIENCE: Diorama 6°A - C ENGLISH: Theater week play presentation · 6°D ENGLISH: Theater week play presentation",
+      "tipo": "Calendario oficial",
+      "hoja": "AGOSTO"
+    },
+    {
+      "fecha": "2026-09-01",
+      "curso": "6°B",
+      "asignatura": "Evaluación",
+      "descripcion": "11:30- 12:50: Ensayo bailes folclóricos 6° A y D: SOCIAL: Test Regions of Chile · 6°A y B: LENGUAJE: Evaluación cierre de tema 4 (acumulativa) 6° C: SOCIAL: Test Regions of Chile · 6°C y D: LENGUAJE: Evaluación cierre de tema 4 (acumulativa)",
+      "tipo": "Calendario oficial",
+      "hoja": "SEPTIEMBRE"
+    },
+    {
+      "fecha": "2026-09-03",
+      "curso": "3°D",
+      "asignatura": "3°C LENG: Evaluación Plan Lector 6 \"Isabel Ossa\"",
+      "descripcion": "3°C LENG: Evaluación Plan Lector 6 \"Isabel Ossa\" · 3°B LENG: Evaluación Plan Lector 6 \"Isabel Ossa\" 3°A, C & D: Division Quiz 11:30 a 12:50 hrs: Ensayo bailes Ed. Física 3ºA Tecnología: Juego Chileno",
+      "tipo": "Calendario oficial",
+      "hoja": "SEPTIEMBRE"
+    },
+    {
+      "fecha": "2026-09-03",
+      "curso": "6°B",
+      "asignatura": "6° B: SOCIAL: Test Regions of Chile",
+      "descripcion": "6° B: SOCIAL: Test Regions of Chile · 11:30- 12:50: Ensayo bailes folclóricos 6° A y D: SOCIAL: Test Regions of Chile · 6°C y D: LENGUAJE: Evaluación cierre de tema 4 (acumulativa)",
+      "tipo": "Calendario oficial",
+      "hoja": "SEPTIEMBRE"
+    },
+    {
+      "fecha": "2026-09-07",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3° B Social Studies/Natural Science: Plants/Climate Zones Project Presentation 3ºA 3ªB 3ªD Art: Mosaic ENGLISH 3°D: Reader classwork delivery · 3° A y C Social Studies/Natural Science: Plants/Climate Zones Project Presentation 3ºB Tecnología: Juego Chileno · ENGLISH 3°A - B - C : Reader classwork delivery 3ºC y D Tecnología: Juego Chileno 3°D Social Studies/Natural Science: Plants/Climate Zones Project Presentation",
+      "tipo": "Calendario oficial",
+      "hoja": "SEPTIEMBRE"
+    },
+    {
+      "fecha": "2026-09-07",
+      "curso": "6°B",
+      "asignatura": "Fiesta folclórica",
+      "descripcion": "6°A: LENGUAJE: Evaluación Plan Lector 5 \"Mocha Dick\" 6°C: ARTE: Mural (croquera y boceto) · 8:30- 14:00: Jornada de liderazgo (asiste solo la Directiva) 6°D: ARTE: Mural (croquera y boceto) · Fiesta folclórica",
+      "tipo": "Calendario oficial",
+      "hoja": "SEPTIEMBRE"
+    },
+    {
+      "fecha": "2026-09-08",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3°A, B, C y D LENG: Inicio de evaluación de cierre de tema 4. · 3° A y C Social Studies/Natural Science: Plants/Climate Zones Project Presentation 3ºB Tecnología: Juego Chileno · ENGLISH 3°A - B - C : Reader classwork delivery 3ºC y D Tecnología: Juego Chileno 3°D Social Studies/Natural Science: Plants/Climate Zones Project Presentation",
+      "tipo": "Calendario oficial",
+      "hoja": "SEPTIEMBRE"
+    },
+    {
+      "fecha": "2026-09-10",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3°A, B, C y D LENG: Inicio de evaluación de cierre de tema 4. · 3° B Social Studies/Natural Science: Plants/Climate Zones Project Presentation 3ºA 3ªB 3ªD Art: Mosaic ENGLISH 3°D: Reader classwork delivery · 3° A y C Social Studies/Natural Science: Plants/Climate Zones Project Presentation 3ºB Tecnología: Juego Chileno",
+      "tipo": "Calendario oficial",
+      "hoja": "SEPTIEMBRE"
+    },
+    {
+      "fecha": "2026-09-25",
+      "curso": "6°B",
+      "asignatura": "10:00- 11:00: Actividades Teletón Day",
+      "descripcion": "10:00- 11:00: Actividades Teletón Day",
+      "tipo": "Calendario oficial",
+      "hoja": "SEPTIEMBRE"
+    },
+    {
+      "fecha": "2026-10-01",
+      "curso": "6°B",
+      "asignatura": "Evaluación",
+      "descripcion": "6° A, B, C y D: MATEMÁTICA: Prueba de sumas de fracciones y numeros mixtos.",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE"
+    },
+    {
+      "fecha": "2026-10-06",
+      "curso": "6°B",
+      "asignatura": "DÍA DEL PROFESOR (SUSPENSIÓN DE ACTIVIDADES",
+      "descripcion": "6°D y C: LENGUAJE: Prueba de Comprensión de Lectura 2 · DÍA DEL PROFESOR (SUSPENSIÓN DE ACTIVIDADES",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE"
+    },
+    {
+      "fecha": "2026-10-07",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3°B and C Math: Multiplication and Division Written Quiz",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE"
+    },
+    {
+      "fecha": "2026-10-15",
+      "curso": "3°D",
+      "asignatura": "FERIADO: ENCUENTRO DE DOS MUNDOS",
+      "descripcion": "FERIADO: ENCUENTRO DE DOS MUNDOS · 3°B y C: LENGUAJE: Plan Lector 6: ¿Seguiremos siendo amigos?",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE"
+    },
+    {
+      "fecha": "2026-10-16",
+      "curso": "6°B",
+      "asignatura": "FERIADO: ENCUENTRO DE DOS MUNDOS",
+      "descripcion": "FERIADO: ENCUENTRO DE DOS MUNDOS",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE"
+    },
+    {
+      "fecha": "2026-10-19",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3°C - D English: Market presentation (Comunication Fest) · 3°A - B English: Market presentation (Comunication Fest)",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE"
+    },
+    {
+      "fecha": "2026-10-19",
+      "curso": "6°B",
+      "asignatura": "8:30- 16:00: Jornada de reorganización",
+      "descripcion": "8:30- 16:00: Jornada de reorganización · 6ºB y D TECNOLOGÍA : Juego de mesa 6°A: LENGUAJE: Inicio de producto (Communication Fest) · 6ºA y C TECNOLOGÍA: Juego de mesa",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE"
+    },
+    {
+      "fecha": "2026-10-21",
+      "curso": "6°B",
+      "asignatura": "8:30- 16:00: Jornada de reorganización",
+      "descripcion": "6°B, C y D: LENGUAJE: Inicio de producto (Communication Fest) · 8:30- 16:00: Jornada de reorganización · 6ºA y C TECNOLOGÍA: Juego de mesa",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE"
+    },
+    {
+      "fecha": "2026-10-22",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3°A, B, C y D: LENGUAJE: Inicio de producto (Communication Fest) · 3°A - B English: Market presentation (Comunication Fest)",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE"
+    },
+    {
+      "fecha": "2026-10-28",
+      "curso": "6°B",
+      "asignatura": "8:20: SCIENCE: Comprehensive test",
+      "descripcion": "8:20: SCIENCE: Comprehensive test · SIMCE 15:30- 16:30: 6°C: Presentación juego de mesa",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE"
+    },
+    {
+      "fecha": "2026-11-03",
+      "curso": "6°B",
+      "asignatura": "9:55: SOCIAL: Comprehensive test",
+      "descripcion": "9:55: SOCIAL: Comprehensive test · 15:30- 16:30: 6°A: Presentación juego de mesa · 6°C y D: LENGUAJE: Evaluación DIA de cierre (no requiere estudio)",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE"
+    },
+    {
+      "fecha": "2026-11-05",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3°C: LENGUAJE: Evaluación DIA de cierre (no requiere estudio) · 3°B: LENGUAJE: Evaluación DIA de cierre (no requiere estudio)",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE"
+    },
+    {
+      "fecha": "2026-11-09",
+      "curso": "3°D",
+      "asignatura": "Evaluación",
+      "descripcion": "3°A, B, C y D: LENGUAJE: Inicio de exposiciones (novela a elección)",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE"
+    },
+    {
+      "fecha": "2026-11-09",
+      "curso": "6°B",
+      "asignatura": "6°D MATEMÁTICAS: Entrega trabajo geometría",
+      "descripcion": "6°D MATEMÁTICAS: Entrega trabajo geometría · 6°A, B, C and D: ENGLISH: Reader classwork assessment · 6°A, B, C and D: ENGLISH: Reader classwork assessment",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE"
+    },
+    {
+      "fecha": "2026-11-12",
+      "curso": "6°B",
+      "asignatura": "6°A, B y C MATEMÁTICAS: Entrega trabajo geometría",
+      "descripcion": "6°A, B y C MATEMÁTICAS: Entrega trabajo geometría · 6°D MATEMÁTICAS: Entrega trabajo geometría",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE"
+    },
+    {
+      "fecha": "2026-11-13",
+      "curso": "6°B",
+      "asignatura": "6°A, B y C MATEMÁTICAS: Entrega trabajo geometría",
+      "descripcion": "6°A, B y C MATEMÁTICAS: Entrega trabajo geometría · 6°D MATEMÁTICAS: Entrega trabajo geometría",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE"
+    },
+    {
+      "fecha": "2026-11-16",
+      "curso": "6°B",
+      "asignatura": "10:00- 13:00: Graduación interna IV° medio",
+      "descripcion": "6°A: LENGUAJE: Inicio de exposiciones (novela a elección) · 10:00- 13:00: Graduación interna IV° medio · 6°A, B, C y D MATEMÁTICAS: Evaluación DIA de cierre (no requiere estudio)",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE"
+    },
+    {
+      "fecha": "2026-11-19",
+      "curso": "3°D",
+      "asignatura": "3°C: LENGUAJE: Prueba de Comprensión de Lectura 2",
+      "descripcion": "3°C: LENGUAJE: Prueba de Comprensión de Lectura 2 · 3°B: LENGUAJE: Prueba de Comprensión de Lectura 2",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE"
+    },
+    {
+      "fecha": "2026-11-19",
+      "curso": "6°B",
+      "asignatura": "10:00- 13:00: Graduación interna IV° medio",
+      "descripcion": "6°B, C y D: LENGUAJE: Inicio de exposiciones (novela a elección) · 6°A: LENGUAJE: Inicio de exposiciones (novela a elección) · 10:00- 13:00: Graduación interna IV° medio",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE"
+    },
+    {
+      "fecha": "2026-11-23",
+      "curso": "3°D",
+      "asignatura": "11:30 a 12:50: Visita Isabel Ossa (Biblioteca)",
+      "descripcion": "11:30 a 12:50: Visita Isabel Ossa (Biblioteca)",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE"
+    },
+    {
+      "fecha": "2026-11-26",
+      "curso": "6°B",
+      "asignatura": "6ºA, C and D: SCIENCE: Test",
+      "descripcion": "6ºA, C and D: SCIENCE: Test",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE"
+    },
+    {
+      "fecha": "2026-11-30",
+      "curso": "6°B",
+      "asignatura": "Evaluación",
+      "descripcion": "6°B, C y D: LENGUAJE: Cierre de tema 6",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE"
+    }
+  ]
 }
