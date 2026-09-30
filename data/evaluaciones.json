@@ -1,5 +1,5 @@
 {
-  "actualizado_en": "29-09-2026 19:58",
+  "actualizado_en": "30-09-2026 16:26",
   "fuente": "Colegio Andrée English School",
   "cursos": [
     "3°D",
@@ -1277,6 +1277,18 @@
       "tipo": "Actividad general",
       "hoja": "OCTUBRE",
       "origen": "6B|OCTUBRE|R7C1"
+    },
+    {
+      "fecha": "2026-10-14",
+      "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
+      "asignatura": "English",
+      "descripcion": "Grammar Quiz",
+      "texto_original": "3°A-B-C-D English: Grammar Quiz",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE",
+      "origen": "3D|OCTUBRE|R7C3"
     },
     {
       "fecha": "2026-10-15",
