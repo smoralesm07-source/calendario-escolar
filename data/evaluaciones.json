@@ -1,5 +1,5 @@
 {
-  "actualizado_en": "07-10-2026 17:26",
+  "actualizado_en": "08-10-2026 17:25",
   "fuente": "Colegio Andrée English School",
   "cursos": [
     "3°D",
@@ -1428,23 +1428,11 @@
       "nivel": "6°",
       "es_general": false,
       "asignatura": "Lenguaje",
-      "descripcion": "Evaluación DIA de cierre (no requiere estudio)",
-      "texto_original": "6° A y B: LENGUAJE: Evaluación DIA de cierre (no requiere estudio)",
+      "descripcion": "Evaluación DIA de cierre (no requiere estudio) 6°C ARTE: Pop art",
+      "texto_original": "6° A y B: LENGUAJE: Evaluación DIA de cierre (no requiere estudio) 6°C ARTE: Pop art",
       "tipo": "Calendario oficial",
       "hoja": "NOVIEMBRE",
       "origen": "6B|NOVIEMBRE|R3C2"
-    },
-    {
-      "fecha": "2026-11-04",
-      "curso": "General 6°",
-      "nivel": "6°",
-      "es_general": true,
-      "asignatura": "Actividad escolar",
-      "descripcion": "9:55: SOCIAL: Comprehensive test",
-      "texto_original": "9:55: SOCIAL: Comprehensive test",
-      "tipo": "Actividad general",
-      "hoja": "NOVIEMBRE",
-      "origen": "6B|NOVIEMBRE|R3C3"
     },
     {
       "fecha": "2026-11-05",
@@ -1457,6 +1445,18 @@
       "tipo": "Calendario oficial",
       "hoja": "NOVIEMBRE",
       "origen": "3D|NOVIEMBRE|R3C4"
+    },
+    {
+      "fecha": "2026-11-06",
+      "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
+      "asignatura": "Lenguaje",
+      "descripcion": "Evaluación DIA de cierre (no requiere estudio) 6° A y 6°B ARTE: Pop art",
+      "texto_original": "6°C y D: LENGUAJE: Evaluación DIA de cierre (no requiere estudio) 6° A y 6°B ARTE: Pop art",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE",
+      "origen": "6B|NOVIEMBRE|R3C5"
     },
     {
       "fecha": "2026-11-09",
