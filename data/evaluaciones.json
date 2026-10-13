@@ -1,5 +1,5 @@
 {
-  "actualizado_en": "12-10-2026 19:49",
+  "actualizado_en": "13-10-2026 17:37",
   "fuente": "Colegio Andrée English School",
   "cursos": [
     "3°D",
@@ -1428,8 +1428,8 @@
       "nivel": "6°",
       "es_general": false,
       "asignatura": "Lenguaje",
-      "descripcion": "Evaluación DIA de cierre (no requiere estudio) 6°C ARTE: Pop art",
-      "texto_original": "6° A y B: LENGUAJE: Evaluación DIA de cierre (no requiere estudio) 6°C ARTE: Pop art",
+      "descripcion": "Evaluación DIA de cierre (no requiere estudio) 6°C ARTE: Pop art 6° D MATEMÁTICAS: Trabajo de geometría: área y volumen de figuras y cuerpos geométricos.",
+      "texto_original": "6° A y B: LENGUAJE: Evaluación DIA de cierre (no requiere estudio) 6°C ARTE: Pop art 6° D MATEMÁTICAS: Trabajo de geometría: área y volumen de figuras y cuerpos geométricos.",
       "tipo": "Calendario oficial",
       "hoja": "NOVIEMBRE",
       "origen": "6B|NOVIEMBRE|R3C2"
@@ -1469,18 +1469,6 @@
       "tipo": "Calendario oficial",
       "hoja": "NOVIEMBRE",
       "origen": "3D|NOVIEMBRE|R5C1"
-    },
-    {
-      "fecha": "2026-11-09",
-      "curso": "6°B",
-      "nivel": "6°",
-      "es_general": false,
-      "asignatura": "Matemáticas",
-      "descripcion": "Entrega trabajo geometría",
-      "texto_original": "6°A, B y C MATEMÁTICAS: Entrega trabajo geometría",
-      "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE",
-      "origen": "6B|NOVIEMBRE|R5C1"
     },
     {
       "fecha": "2026-11-12",
