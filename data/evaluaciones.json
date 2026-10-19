@@ -1,5 +1,5 @@
 {
-  "actualizado_en": "18-10-2026 14:02",
+  "actualizado_en": "19-10-2026 16:59",
   "fuente": "Colegio Andrée English School",
   "cursos": [
     "3°D",
@@ -1337,18 +1337,6 @@
       "tipo": "Calendario oficial",
       "hoja": "OCTUBRE",
       "origen": "6B|OCTUBRE|R9C1"
-    },
-    {
-      "fecha": "2026-10-20",
-      "curso": "General 6°",
-      "nivel": "6°",
-      "es_general": true,
-      "asignatura": "Actividad escolar",
-      "descripcion": "8:30- 16:00: Jornada de reorganización",
-      "texto_original": "8:30- 16:00: Jornada de reorganización",
-      "tipo": "Actividad general",
-      "hoja": "OCTUBRE",
-      "origen": "6B|OCTUBRE|R9C2"
     },
     {
       "fecha": "2026-10-21",
