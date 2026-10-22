@@ -1,5 +1,5 @@
 {
-  "actualizado_en": "21-10-2026 15:18",
+  "actualizado_en": "22-10-2026 15:19",
   "fuente": "Colegio Andrée English School",
   "cursos": [
     "3°D",
@@ -1357,7 +1357,7 @@
       "es_general": false,
       "asignatura": "English",
       "descripcion": "Market presentation (Comunication Fest)",
-      "texto_original": "3°C - D English: Market presentation (Comunication Fest)",
+      "texto_original": "3°A - B - C - D English: Market presentation (Comunication Fest)",
       "tipo": "Calendario oficial",
       "hoja": "OCTUBRE",
       "origen": "3D|OCTUBRE|R11C1"
@@ -1397,6 +1397,18 @@
       "tipo": "Calendario oficial",
       "hoja": "OCTUBRE",
       "origen": "6B|OCTUBRE|R11C3"
+    },
+    {
+      "fecha": "2026-10-30",
+      "curso": "3°D",
+      "nivel": "3°",
+      "es_general": false,
+      "asignatura": "Social Studies",
+      "descripcion": "Institution presentation",
+      "texto_original": "3°A, B, C and D Social Studies: Institution presentation",
+      "tipo": "Calendario oficial",
+      "hoja": "OCTUBRE",
+      "origen": "3D|OCTUBRE|R11C5"
     },
     {
       "fecha": "2026-10-30",
