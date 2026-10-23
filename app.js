@@ -1,5 +1,5 @@
 const state = { course: 'all', data: [], alerts: { active:false, token:null, preferences:null } };
-const ALERT_API = 'https://bzqxvidggykkdouotylg.supabase.co/functions/v1/school-alerts';
+const ALERT_API = String(window.CALENDARIO_ALERT_API_URL || 'https://bzqxvidggykkdouotylg.supabase.co/functions/v1/school-alerts');
 const ALERT_TOKEN_KEY = 'school_alert_manage_token';
 
 const fmtDate = new Intl.DateTimeFormat('es-CL', { weekday:'short', day:'2-digit', month:'short' });
