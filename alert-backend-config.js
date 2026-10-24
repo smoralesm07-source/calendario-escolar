@@ -1,5 +1,4 @@
-// Configuración pública de URL (NO colocar secretos aquí).
-// Preparación de migración escolar; rama aislada, sin impacto en producción.
-// El valor vacío mantiene activo el backend heredado durante la preparación.
-// Para el corte, actualizar con la URL real de la nueva función school-alerts.
-window.CALENDARIO_ALERT_API_URL = "";
+// Endpoint público de Calendario Escolar dentro del proyecto principal de Atlas.
+// La aplicación conserva su propio módulo; nunca exponer secretos aquí.
+// ESTA RAMA NO ESTÁ PUBLICADA. Verificar Resend y GitHub Actions antes de fusionar.
+window.CALENDARIO_ALERT_API_URL = "https://ldmtlwzqaqmegedktlxr.supabase.co/functions/v1/school-alerts";
