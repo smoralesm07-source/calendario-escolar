@@ -45,18 +45,20 @@ jobs:
 
       - name: Procesar avisos y recordatorios
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          # URL pública del proyecto principal; nunca apuntar a AML CLAUDE después del corte.
+          SCHOOL_SUPABASE_URL: https://ldmtlwzqaqmegedktlxr.supabase.co
+          # Debe configurar este secreto para el proyecto Atlas antes de fusionar.
+          SCHOOL_SUPABASE_ANON_KEY: ${{ secrets.SCHOOL_SUPABASE_ANON_KEY }}
         run: |
-          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_ANON_KEY" ]; then
-            echo "Faltan secretos de Supabase: se omite el envío de avisos."
-            exit 0
+          if [ -z "$SCHOOL_SUPABASE_ANON_KEY" ]; then
+            echo "::error::Falta SCHOOL_SUPABASE_ANON_KEY del proyecto Atlas. Avisos NO ejecutados."
+            exit 1
           fi
           sleep 3
           curl --fail --silent --show-error \
             --request POST \
-            --header "Authorization: Bearer $SUPABASE_ANON_KEY" \
-            --header "apikey: $SUPABASE_ANON_KEY" \
+            --header "Authorization: Bearer $SCHOOL_SUPABASE_ANON_KEY" \
+            --header "apikey: $SCHOOL_SUPABASE_ANON_KEY" \
             --header "Content-Type: application/json" \
             --data '{}' \
-            "$SUPABASE_URL/functions/v1/school-alert-notify"
+            "$SCHOOL_SUPABASE_URL/functions/v1/school-alert-notify"
