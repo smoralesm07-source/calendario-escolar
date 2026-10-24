@@ -1,35 +1,33 @@
-# Preparación del traslado aislado de alertas escolares
+# Migración completa de Calendario Escolar a Supabase de Atlas
+Auditoría y copia de datos: 2026-10-24. Preparación de corte sin alterar el sitio publicado.
 
-Fecha de auditoría: 2026-10-23. Documento de preparación; **no se ha realizado migración ni cambio en producción**.
+## Destino autorizado
+Origen: `AML CLAUDE` — `bzqxvidggykkdouotylg`.
+Destino: Supabase **principal** de Atlas — `ldmtlwzqaqmegedktlxr`.
+El módulo escolar utiliza SOLO las tablas `public.school_alert_*` y funciones `school-alerts` / `school-alert-notify`. No requiere mezclar datos escolares con tablas analíticas de Atlas.
 
-## Principio de aislamiento
-El servicio escolar debe trasladarse a un **proyecto Supabase distinto del proyecto principal de Atlas**. El nuevo proyecto debe pertenecer preferentemente a una organización Free propia, si es elegible; no crear una nueva instancia pagada en la organización Pro actual porque eliminaría gran parte del ahorro.
+## EJECUTADO y verificado
+- Copiadas 144 filas de `public.school_alert_events`.
+- Copiada la única suscripción, con UUID, correo, preferencias de cursos, hashes de tokens, estado y timestamps.
+- Copiadas 65 entregas históricas de correo, manteniendo el UUID de PK propio de Atlas y el bigint original en la columna adicional `legacy_delivery_id` (índice único).
+- Validación de integridad con hashes MD5 sobre cada fila de eventos y suscripciones, y sobre todas las columnas compartidas de entregas (sin ID sustituido). Todas las comparaciones fueron iguales; 0 entregas huérfanas y 0 IDs originales perdidos.
+- Se desplegó en el destino `school-alert-notify` versión 3 con el código de la función origen, JWT habilitado, sin URL del proyecto antiguo incrustada. Esto preserva compatibilidad con cursos `3D`, `6B`, `GENERAL3` y `GENERAL6`.
+- La función `school-alerts` ya estaba desplegada en el proyecto Atlas; se verificó el código, sin reemplazarla.
+- Código del sitio y workflow diario preparados en esta rama, no en main:
+  - `alert-backend-config.js` contiene el nuevo endpoint público en Atlas.
+  - `.github/workflows/sync.yml` llama al endpoint nuevo y exige `secrets.SCHOOL_SUPABASE_ANON_KEY` (secreto del proyecto destino); si falta, la tarea falla de forma visible en vez de aparentar éxito.
+- No se tocó el proceso de actualización de Atlas ni ninguna tabla fuera del módulo escolar.
 
-Origen actual: proyecto Supabase `bzqxvidggykkdouotylg`.
-Repositorio consumidor: `calendario-escolar`, `app.js`.
-Funciones: `school-alerts` (gestion de suscripciones), `school-alert-notify` (generacion y envio).
-Tablas: `public.school_alert_events`, `public.school_alert_subscriptions`, `public.school_alert_deliveries`.
+## BLOQUEOS ANTES DE FUSIONAR ESTA RAMA (cutover)
+1. **Configurar** en GitHub Actions > Secrets and variables > Actions del repositorio `calendario-escolar`: `SCHOOL_SUPABASE_ANON_KEY` = clave **legacy anon**, activa, del proyecto principal `ldmtlwzqaqmegedktlxr`. La conexión disponible no permite editar secrets de GitHub. No usar la antigua clave de AML CLAUDE, ni service_role.
+2. **Confirmar sin exponerla** que `RESEND_API_KEY` y `RESEND_FROM_EMAIL` están configuradas correctamente como secretos de las Edge Functions del proyecto Atlas; probar envío controlado en el nuevo destino. La interfaz disponible permite desplegar funciones, pero no inspeccionar su configuración secreta. Mantener las claves fuera del repositorio público.
+3. Verificar `APP_BASE_URL` para enlaces de confirmación/desuscripción y `SCHOOL_ALERT_FEED_URL` al JSON del calendario.
+4. Hacer una sincronización final **delta** porque AML CLAUDE sigue recibiendo notificaciones; volver a comparar eventos/suscripciones/entregas y hashes. Mantener los IDs heredados y no enviar correos de prueba no deseados.
+5. Testear el endpoint de suscripción `school-alerts`: alta, confirmación, consulta, actualización y baja; comprobar con suscripción de prueba separada, sin afectar la real.
+6. Testear `school-alert-notify` con feed de prueba seguro y sin doble envío. Garantizar que solo un proceso diario queda activo cuando se produzca el corte.
+7. Fusionar esta rama **solo tras estas pruebas**, verificar web en GitHub Pages y una ejecución de sync.yml exitosa hacia `ldmtlwzqaqmegedktlxr`.
+8. Comprobar cero solicitudes productivas al backend escolar en `bzqxvidggykkdouotylg`; si falla, volver a `main` anterior, manteniendo intactas las tablas antiguas.
 
-## Línea base del origen (2026-10-23, lectura SQL)
-- 144 eventos.
-- 1 suscripción.
-- 64 entregas.
-- Última actualización / entrega: 2026-10-23.
-- RLS habilitado y ninguna política de acceso directo: deben conservarse los controles de las Edge Functions.
-
-## Preservación
-1. Obtener un backup cifrado y verificable de las tres tablas, incluyendo claves primarias, UNIQUE, FK, índice, trigger y tokens almacenados como hash. **No subir emails, hashes, secretos ni copias de datos al repositorio público**.
-2. Descargar y conservar las dos Edge Functions con sus versiones y hashes; nunca publicar credenciales.
-3. Preparar un proyecto Supabase nuevo e independiente. Reproducir tablas con la estructura del ORIGEN (no usar sin adaptar las tablas vacías del proyecto Atlas).
-4. Importar `school_alert_subscriptions`, `school_alert_events` y finalmente `school_alert_deliveries` preservando los ID. La columna `id` de deliveries es `bigint` en origen, pero `uuid` en la copia vacía del proyecto Atlas: evitar conversiones implícitas.
-5. Configurar de forma privada `RESEND_API_KEY`, `RESEND_FROM_EMAIL`, `APP_BASE_URL`, `SCHOOL_ALERT_FEED_URL`, `SUPABASE_URL` y la clave de servicio correspondiente. Nunca copiar claves de servicio a la web.
-6. Validar confirmación, consulta de estado, desuscripción, generación de eventos y notificaciones sin duplicarlas. Mantener el emisor anterior bloqueado o sin agendamiento solo después de probar el nuevo.
-7. Una vez verificado el nuevo endpoint, cambiar exclusivamente el valor público de `window.CALENDARIO_ALERT_API_URL` en `alert-backend-config.js` hacia `https://NUEVO-REF.supabase.co/functions/v1/school-alerts`. El archivo `index.html` de esta rama ya carga dicha configuración antes que `app.js`. **No configurar el destino ni fusionar la rama mientras falte restauración, validación de correo o las pruebas de CORS y autenticación.**
-8. Tras el cambio, comparar la cantidad de registros, IDs y estadísticas de entrega; validar una entrega real controlada y conservar rollback.
-9. No retirar AML CLAUDE hasta confirmar que el sitio escolar y el proceso automatizado de notificaciones usan exclusivamente el nuevo backend.
-
-## Estado de este branch
-`app.js` admite un endpoint alternativo mediante `window.CALENDARIO_ALERT_API_URL`; `index.html` carga `alert-backend-config.js`, cuyo valor actual está vacío. Mientras siga vacío, se utiliza el backend original. El branch no cambia el sitio activo ni crea gastos adicionales.
-
-## Condición de cierre del frente escolar
-La función del origen recibe cero solicitudes productivas, el sitio usa la nueva URL, las suscripciones y hashes están preservados, los envíos no se duplican y la restauración ha sido probada.
+## ESTADO
+**Datos históricos migrados y comprobados; función de notificación equivalente desplegada. Corte de tráfico NO EJECUTADO.**
+El origen sigue activo como protección. **No borrar AML CLAUDE** hasta haber validado los otros componentes de Atlas y probado el backup íntegro de ese proyecto.
