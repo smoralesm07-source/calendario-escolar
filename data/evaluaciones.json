@@ -1,5 +1,5 @@
 {
-  "actualizado_en": "03-11-2026 17:52",
+  "actualizado_en": "04-11-2026 18:00",
   "fuente": "Colegio Andrée English School",
   "cursos": [
     "3°D",
@@ -1483,30 +1483,6 @@
       "origen": "6B|NOVIEMBRE|R5C1"
     },
     {
-      "fecha": "2026-11-12",
-      "curso": "6°B",
-      "nivel": "6°",
-      "es_general": false,
-      "asignatura": "English",
-      "descripcion": "Reader classwork assessment",
-      "texto_original": "6°A, B, C and D: ENGLISH: Reader classwork assessment",
-      "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE",
-      "origen": "6B|NOVIEMBRE|R5C4"
-    },
-    {
-      "fecha": "2026-11-13",
-      "curso": "6°B",
-      "nivel": "6°",
-      "es_general": false,
-      "asignatura": "English",
-      "descripcion": "Reader classwork assessment",
-      "texto_original": "6°A, B, C and D: ENGLISH: Reader classwork assessment",
-      "tipo": "Calendario oficial",
-      "hoja": "NOVIEMBRE",
-      "origen": "6B|NOVIEMBRE|R5C5"
-    },
-    {
       "fecha": "2026-11-16",
       "curso": "6°B",
       "nivel": "6°",
@@ -1565,6 +1541,30 @@
       "tipo": "Calendario oficial",
       "hoja": "NOVIEMBRE",
       "origen": "3D|NOVIEMBRE|R9C1"
+    },
+    {
+      "fecha": "2026-11-23",
+      "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
+      "asignatura": "English",
+      "descripcion": "Reader classwork assessment",
+      "texto_original": "6°A, B, C and D: ENGLISH: Reader classwork assessment",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE",
+      "origen": "6B|NOVIEMBRE|R9C1"
+    },
+    {
+      "fecha": "2026-11-24",
+      "curso": "6°B",
+      "nivel": "6°",
+      "es_general": false,
+      "asignatura": "English",
+      "descripcion": "Reader classwork assessment",
+      "texto_original": "6°A, B, C and D: ENGLISH: Reader classwork assessment",
+      "tipo": "Calendario oficial",
+      "hoja": "NOVIEMBRE",
+      "origen": "6B|NOVIEMBRE|R9C2"
     },
     {
       "fecha": "2026-11-26",
